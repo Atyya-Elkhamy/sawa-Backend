@@ -78,14 +78,15 @@
 #                 upstreams:
 #                   - dial: ["localhost:3001"]
 
-
 logging:
   logs:
     default:
       level: INFO
+
 storage:
   module: file_system
   root: /data
+
 apps:
   tls:
     certificates:
@@ -93,6 +94,7 @@ apps:
         - app.rootmatrix.cloud
         - realtime.rootmatrix.cloud
         - turn.rootmatrix.cloud
+
   http:
     servers:
       web:
@@ -100,28 +102,32 @@ apps:
           - ":80"
           - ":443"
         routes:
+          # App backend
           - match:
               - host: ["app.rootmatrix.cloud"]
             handle:
               - handler: reverse_proxy
                 upstreams:
                   - dial: "127.0.0.1:6000"
+
+          # Realtime backend
           - match:
               - host: ["realtime.rootmatrix.cloud"]
             handle:
               - handler: reverse_proxy
                 upstreams:
                   - dial: "127.0.0.1:7880"
+
   layer4:
     servers:
       turn:
         listen:
-          - ":443"
+          - ":5349"   # TURN TLS port (was wrongly on 443)
         routes:
           - match:
-              - tls:
-                  sni:
-                    - "turn.rootmatrix.cloud"
+              tls:
+                sni:
+                  - "turn.rootmatrix.cloud"
             handle:
               - handler: proxy
                 upstreams:
