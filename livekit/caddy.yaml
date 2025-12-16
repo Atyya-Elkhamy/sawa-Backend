@@ -90,9 +90,7 @@ apps:
   tls:
     certificates:
       automate:
-        - front.rootmatrix.cloud
         - app.rootmatrix.cloud
-        - api.rootmatrix.cloud
         - realtime.rootmatrix.cloud
         - turn.rootmatrix.cloud
   http:
@@ -103,23 +101,11 @@ apps:
           - ":443"
         routes:
           - match:
-              - host: ["front.rootmatrix.cloud"]
-            handle:
-              - handler: reverse_proxy
-                upstreams:
-                  - dial: "127.0.0.1:3000"
-          - match:
               - host: ["app.rootmatrix.cloud"]
             handle:
               - handler: reverse_proxy
                 upstreams:
                   - dial: "127.0.0.1:6000"
-          - match:
-              - host: ["api.rootmatrix.cloud"]
-            handle:
-              - handler: reverse_proxy
-                upstreams:
-                  - dial: "127.0.0.1:3001"
           - match:
               - host: ["realtime.rootmatrix.cloud"]
             handle:
