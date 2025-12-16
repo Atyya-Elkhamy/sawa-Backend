@@ -1,102 +1,57 @@
-# logging:
-#   logs:
-#     default:
-#       level: INFO
+logging:
+  logs:
+    default:
+      level: INFO
 
-# storage:
-#   module: file_system
-#   root: /data
-
-# apps:
-#   tls:
-#     certificates:
-#       automate:
-#         - realtime.rootmatrix.cloud	
-#         - turn.rootmatrix.cloud	
-#         - app.rootmatrix.cloud	
-#         - front.rootmatrix.cloud	
-#         - api.rootmatrix.cloud	
-
-#   layer4:
-#     servers:
-#       main:
-#         listen: [":80", ":443"]
-#         routes:
-#           - match:
-#               - tls:
-#                   sni:
-#                     - "turn.rootmatrix.cloud	"
-#             handle:
-#               - handler: tls
-#                 connection_policies:
-#                   - alpn: ["http/1.1"]
-#               - handler: proxy
-#                 upstreams:
-#                   - dial: ["localhost:5349"]
-#           - match:
-#               - tls:
-#                   sni:
-#                     - "realtime.rootmatrix.cloud	"
-#             handle:
-#               - handler: tls
-#                 connection_policies:
-#                   - alpn: ["http/1.1"]
-#               - handler: proxy
-#                 upstreams:
-#                   - dial: ["localhost:7880"]
-#           - match:
-#               - tls:
-#                   sni:
-#                     - "app.rootmatrix.cloud	"
-#             handle:
-#               - handler: tls
-#                 connection_policies:
-#                   - alpn: ["http/1.1"]
-#               - handler: proxy
-#                 upstreams:
-#                   - dial: ["localhost:6000"]
-#           - match:
-#               - tls:
-#                   sni:
-#                     - "front.rootmatrix.cloud	"
-#             handle:
-#               - handler: tls
-#                 connection_policies:
-#                   - alpn: ["http/1.1"]
-#               - handler: proxy
-#                 upstreams:
-#                   - dial: ["localhost:3000"]
-#           - match:
-#               - tls:
-#                   sni:
-#                     - "api.rootmatrix.cloud	"
-#             handle:
-#               - handler: tls
-#                 connection_policies:
-#                   - alpn: ["http/1.1"]
-#               - handler: proxy
-#                 upstreams:
-#                   - dial: ["localhost:3001"]
-
+storage:
+  module: file_system
+  root: /data
 
 apps:
   tls:
     certificates:
       automate:
-        - app.rootmatrix.cloud
-        - realtime.rootmatrix.cloud
-        - turn.rootmatrix.cloud
+        - realtime.rootmatrix.cloud	
+        - turn.rootmatrix.cloud	
+        - app.rootmatrix.cloud	
 
-  http:
+  layer4:
     servers:
-      web:
-        listen:
-          - ":80"
-          - ":443"
+      main:
+        listen: [":80", ":443"]
         routes:
           - match:
-              - host: ["app.rootmatrix.cloud"]
+              - tls:
+                  sni:
+                    - "turn.rootmatrix.cloud	"
             handle:
-              - handler: reverse_proxy
+              - handler: tls
+                connection_policies:
+                  - alpn: ["http/1.1"]
+              - handler: proxy
                 upstreams:
-                  - dial: "127.0.0.1:6000"
+                  - dial: ["localhost:5349"]
+          - match:
+              - tls:
+                  sni:
+                    - "realtime.rootmatrix.cloud	"
+            handle:
+              - handler: tls
+                connection_policies:
+                  - alpn: ["http/1.1"]
+              - handler: proxy
+                upstreams:
+                  - dial: ["localhost:7880"]
+          - match:
+              - tls:
+                  sni:
+                    - "app.rootmatrix.cloud	"
+            handle:
+              - handler: tls
+                connection_policies:
+                  - alpn: ["http/1.1"]
+              - handler: proxy
+                upstreams:
+                  - dial: ["localhost:6000"]
+          
+
