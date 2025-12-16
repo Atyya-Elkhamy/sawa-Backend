@@ -78,6 +78,7 @@
 #                 upstreams:
 #                   - dial: ["localhost:3001"]
 
+
 logging:
   logs:
     default:
@@ -102,7 +103,7 @@ apps:
           - ":80"
           - ":443"
         routes:
-          # App backend
+          # App backend (HTTP reverse proxy)
           - match:
               - host: ["app.rootmatrix.cloud"]
             handle:
@@ -110,24 +111,29 @@ apps:
                 upstreams:
                   - dial: "127.0.0.1:6000"
 
-          # Realtime backend
-          - match:
-              - host: ["realtime.rootmatrix.cloud"]
-            handle:
-              - handler: reverse_proxy
-                upstreams:
-                  - dial: "127.0.0.1:7880"
-
   layer4:
     servers:
-      turn:
+      # LiveKit Realtime (TCP Layer4 proxy)
+      realtime:
         listen:
-          - ":5349"   # TURN TLS port (was wrongly on 443)
+          - ":7880"           # Realtime TCP port
         routes:
           - match:
-              tls:
-                sni:
-                  - "turn.rootmatrix.cloud"
+              - tls:
+                  sni: ["realtime.rootmatrix.cloud"]
+            handle:
+              - handler: proxy
+                upstreams:
+                  - dial: ["127.0.0.1:7880"]
+      # TURN server (TLS + UDP passthrough)
+      turn:
+        listen:
+          - ":5349"           # TLS port
+          - ":3478/udp"       # UDP port for TURN
+        routes:
+          - match:
+              - tls:
+                  sni: ["turn.rootmatrix.cloud"]
             handle:
               - handler: proxy
                 upstreams:
