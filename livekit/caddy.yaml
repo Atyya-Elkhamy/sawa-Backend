@@ -1,0 +1,166 @@
+logging:
+  logs:
+    default:
+      level: INFO
+
+storage:
+  module: file_system
+  root: /data
+
+apps:
+  tls:
+    certificates:
+      automate:
+        - realtime.sawalive.live
+        - turn.sawalive.live
+        - app.sawalive.live
+        - front.sawalive.live
+        - api.sawalive.live
+
+  layer4:
+    servers:
+      main:
+        listen: [":80", ":443"]
+        routes:
+
+          - match:
+              - tls:
+                  sni:
+                    - "turn.sawalive.live"
+            handle:
+              - handler: proxy
+                upstreams:
+                  - dial: ["localhost:5349"]
+                
+          - match:
+              - tls:
+                  sni:
+                    - "realtime.sawalive.live"
+            handle:
+              - handler: tls
+                connection_policies:
+                  - alpn: ["http/1.1"]
+              - handler: proxy
+                upstreams:
+                  - dial: ["localhost:7880"]
+
+          - match:
+              - tls:
+                  sni:
+                    - "app.sawalive.live"
+            handle:
+              - handler: tls
+                connection_policies:
+                  - alpn: ["http/1.1"]
+              - handler: proxy
+                upstreams:
+                  - dial: ["localhost:6000"]
+          - match:
+              - tls:
+                  sni:
+                    - "front.sawalive.live"
+            handle:
+              - handler: tls
+                connection_policies:
+                  - alpn: ["http/1.1"]
+              - handler: proxy
+                upstreams:
+                  - dial: ["localhost:3000"]
+          - match:
+              - tls:
+                  sni:
+                    - "api.sawalive.live"
+            handle:
+              - handler: tls
+                connection_policies:
+                  - alpn: ["http/1.1"]
+              - handler: proxy
+                upstreams:
+                  - dial: ["localhost:3001"]
+
+
+
+# logging:
+#   logs:
+#     default:
+#       level: INFO
+
+# storage:
+#   module: file_system
+#   root: /data
+
+# apps:
+#   #################################
+#   # HTTP SERVER (NORMAL WEBSITES)
+#   #################################
+#   http:
+#     servers:
+#       web:
+#         listen:
+#           - ":80"
+#           - ":443"
+
+#         routes:
+#           # =========================
+#           # FRONTEND
+#           # =========================
+#           - match:
+#               - host:
+#                   - front.sawalive.live
+#             handle:
+#               - handler: reverse_proxy
+#                 upstreams:
+#                   - dial: "127.0.0.1:3000"
+
+#           # =========================
+#           # MOBILE / APP BACKEND
+#           # =========================
+#           - match:
+#               - host:
+#                   - app.sawalive.live
+#             handle:
+#               - handler: reverse_proxy
+#                 upstreams:
+#                   - dial: "127.0.0.1:6000"
+
+#           # =========================
+#           # PUBLIC API
+#           # =========================
+#           - match:
+#               - host:
+#                   - api.sawalive.live
+#             handle:
+#               - handler: reverse_proxy
+#                 upstreams:
+#                   - dial: "127.0.0.1:3001"
+
+#           # =========================
+#           # LIVEKIT REALTIME (HTTP + WS)
+#           # =========================
+#           - match:
+#               - host:
+#                   - realtime.sawalive.live
+#             handle:
+#               - handler: reverse_proxy
+#                 upstreams:
+#                   - dial: "127.0.0.1:7880"
+
+#   #################################
+#   # LAYER4 (TURN ONLY)
+#   #################################
+#   layer4:
+#     servers:
+#       turn:
+#         listen:
+#           - ":443"
+#         routes:
+#           - match:
+#               - tls:
+#                   sni:
+#                     - turn.sawalive.live
+#             handle:
+#               - handler: proxy
+#                 upstreams:
+#                   - dial:
+#                       - "127.0.0.1:5349"
+

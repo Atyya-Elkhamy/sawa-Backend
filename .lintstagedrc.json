@@ -1,0 +1,6 @@
+{
+  "*.js": "es6",
+  "*.json": "jsonlint",
+  "*.md": "markdownlint",
+  "*.mjs": "es6"
+}

@@ -1,0 +1,8 @@
+{
+	"sans": [
+		"turn.sawalive.live"
+	],
+	"issuer_data": {
+		"url": "https://acme-v02.api.letsencrypt.org/acme/cert/05551c72da64c2456c0b17066bb6bd2cf9ef"
+	}
+}

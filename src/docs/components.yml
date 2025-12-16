@@ -1,0 +1,401 @@
+openapi: 3.0.0
+info:
+  title: Sawa Backend API
+  description: API documentation for the Sawa mobile app backend
+  version: 1.0.0
+
+servers:
+  - url: http://localhost:3000/api/v1
+    description: Local server
+
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+        customId:
+          type: string
+          description: A unique, potentially custom ID assigned to the user.
+        email:
+          type: string
+          format: email
+        name:
+          type: string
+        avatar:
+          type: string
+          description: URL to the user's avatar image.
+        frame:
+          type: string
+          description: URL to the user's profile frame.
+        country:
+          type: string
+        friends:
+          type: array
+          items:
+            type: string
+            description: List of friends' user IDs.
+        followers:
+          type: integer
+          description: Number of followers the user has.
+        following:
+          type: integer
+          description: Number of users this user is following.
+        level:
+          type: integer
+          description: The user's level within the app.
+        credits:
+          type: number
+          description: The number of credits the user has.
+        credits_agency:
+          type: boolean
+          description: Indicates if the user is an agency.
+        host_agency:
+          type: boolean
+          description: Indicates if the user is a host agency.
+        is_host:
+          type: boolean
+          description: Indicates if the user is a host.
+        role:
+          type: string
+          enum:
+            - user
+            - admin
+        isEmailVerified:
+          type: boolean
+          description: Indicates if the user's email has been verified.
+      example:
+        id: special123
+        customId: user456
+        email: fake@example.com
+        name: fake name
+        avatar: http://example.com/avatar.jpg
+        frame: http://example.com/frame.png
+        country: US
+        friends:
+          - user789
+          - user321
+        followers: 150
+        following: 200
+        level: 5
+        credits: 1000
+        credits_agency: true
+        host_agency: false
+        is_host: true
+        role: user
+        isEmailVerified: false
+
+    Profile:
+      type: object
+      properties:
+        user_data:
+          type: object
+          properties:
+            avatar:
+              type: string
+            frame:
+              type: string
+            name:
+              type: string
+            id:
+              type: string
+            country:
+              type: string
+            friends:
+              type: array
+              items:
+                type: string
+            followers:
+              type: integer
+            following:
+              type: integer
+            level:
+              type: integer
+            charge_level:
+              type: object
+              properties:
+                level:
+                  type: integer
+                stars:
+                  type: number
+            gender:
+              type: string
+            age:
+              type: integer
+            carizma:
+              type: integer
+            group_name:
+              type: string
+        charge_level:
+          type: object
+          properties:
+            level:
+              type: integer
+            stars:
+              type: number
+        info:
+          type: object
+          properties:
+            about:
+              type: string
+            album:
+              type: array
+              items:
+                type: string
+            interests:
+              type: array
+              items:
+                type: string
+        gifts:
+          type: object
+          properties:
+            total_gifts:
+              type: integer
+            top_gifts:
+              type: array
+              items:
+                type: object
+                properties:
+                  image:
+                    type: string
+        badges:
+          type: object
+          properties:
+            total_badges:
+              type: integer
+            top_badges:
+              type: array
+              items:
+                type: object
+                properties:
+                  image:
+                    type: string
+        in_room:
+          type: string
+          description: Room ID
+      example:
+        user_data:
+          avatar: http://example.com/avatar.jpg
+          frame: http://example.com/frame.png
+          name: fake name
+          id: user456
+          country: US
+          friends: [user789, user321]
+          followers: 150
+          following: 200
+          level: 5
+          charge_level:
+            level: 3
+            stars: 4.5
+          gender: male
+          age: 25
+          carizma: 100
+          group_name: Cool Group
+        charge_level:
+          level: 3
+          stars: 4.5
+        info:
+          about: Just a regular user.
+          album: [http://example.com/album1.jpg, http://example.com/album2.jpg]
+          interests: [Gaming, Music]
+        gifts:
+          total_gifts: 50
+          top_gifts:
+            - image: http://example.com/gift1.png
+        badges:
+          total_badges: 10
+          top_badges:
+            - image: http://example.com/badge1.png
+        in_room: room123
+
+    Room:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        owner:
+          type: string
+        participants:
+          type: array
+          items:
+            type: object
+            properties:
+              userId:
+                type: string
+              joinedAt:
+                type: string
+                format: date-time
+        blockedUsers:
+          type: array
+          items:
+            type: string
+        settings:
+          type: object
+          properties:
+            privacy:
+              type: string
+              enum: [public, private]
+            maxUsers:
+              type: integer
+            allowGuests:
+              type: boolean
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+      example:
+        id: room123
+        name: Cool Room
+        owner: user456
+        participants:
+          - userId: user789
+            joinedAt: 2024-01-01T00:00:00.000Z
+        blockedUsers: []
+        settings:
+          privacy: public
+          maxUsers: 50
+          allowGuests: true
+        createdAt: 2024-01-01T00:00:00.000Z
+        updatedAt: 2024-01-02T00:00:00.000Z
+
+    Agency:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        admin:
+          type: string
+        hosts:
+          type: array
+          items:
+            type: object
+            properties:
+              userId:
+                type: string
+              dailyTarget:
+                type: integer
+              monthlyTarget:
+                type: integer
+              totalDailyTime:
+                type: integer
+              totalMonthlyTime:
+                type: integer
+              achievedDaily:
+                type: boolean
+              achievedMonthly:
+                type: boolean
+        performanceData:
+          type: object
+          properties:
+            totalFamePoints:
+              type: integer
+            totalRichPoints:
+              type: integer
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+      example:
+        id: agency123
+        name: Super Agency
+        admin: user456
+        hosts:
+          - userId: user789
+            dailyTarget: 3600
+            monthlyTarget: 108000
+            totalDailyTime: 1800
+            totalMonthlyTime: 54000
+            achievedDaily: false
+            achievedMonthly: false
+        performanceData:
+          totalFamePoints: 150
+          totalRichPoints: 200
+        createdAt: 2024-01-01T00:00:00.000Z
+        updatedAt: 2024-01-02T00:00:00.000Z
+
+    Token:
+      type: object
+      properties:
+        token:
+          type: string
+        expires:
+          type: string
+          format: date-time
+      example:
+        token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZWJhYzUzNDk1NGI1NDEzOTgwNmMxMTIiLCJpYXQiOjE1ODkyOTg0ODQsImV4cCI6MTU4OTMwMDI4NH0.m1U63blB0MLej_WfB7yC2FTMnCziif9X8yzwDEfJXAg
+        expires: 2020-05-12T16:18:04.793Z
+
+    AuthTokens:
+      type: object
+      properties:
+        access:
+          $ref: '#/components/schemas/Token'
+        refresh:
+          $ref: '#/components/schemas/Token'
+
+    Error:
+      type: object
+      properties:
+        code:
+          type: number
+        message:
+          type: string
+
+  responses:
+    DuplicateEmail:
+      description: Email already taken
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            code: 400
+            message: Email already taken
+
+    Unauthorized:
+      description: Unauthorized
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            code: 401
+            message: Please authenticate
+
+    Forbidden:
+      description: Forbidden
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            code: 403
+            message: Forbidden
+
+    NotFound:
+      description: Not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            code: 404
+            message: Not found
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+security:
+  - bearerAuth: []

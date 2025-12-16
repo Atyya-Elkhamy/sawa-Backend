@@ -1,0 +1,4 @@
+{
+  "editor.foldingImportsByDefault": true,
+  "javascript.updateImportsOnFileMove.enabled": "prompt"
+}

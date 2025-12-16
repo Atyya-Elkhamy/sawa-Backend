@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"blocker":{"$numberInt":"1"},"blocked":{"$numberInt":"1"}},"name":"blocker_1_blocked_1","background":true,"unique":true}],"uuid":"a4ac9252b1054d218c63fbc43dd61613","collectionName":"blocks","type":"collection"}

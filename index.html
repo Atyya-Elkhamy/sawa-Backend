@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Socket.IO Client Test</title>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/node-fetch@2.6.1/dist/index.min.js"></script>
+  </head>
+  <body>
+    <h1>Socket.IO Test</h1>
+
+    <script>
+      for (let i = 0; i < 10; i++) {
+        const res = fetch('https://sawa.physio-alpha.de/v1/games/user-data?userId=66f05657d9ba5100207939f3', {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+            'x-api-key': '92eb909e6f093fe36d635361c08e0fd3fd3ae0dac87c8a2b15879b6d6c846e4e',
+            Authorization:
+              'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NmY0Yjk4NmNhMTlhYTdjZjBjYjE1MjkiLCJpYXQiOjE3Mjc0NTI3ODAsImV4cCI6MTczMjg1Mjc4MCwidHlwZSI6ImFjY2VzcyJ9.IrmjRWeroDAo_POwGckGi1Aszg5zpRj_ywdoC2mnFcU',
+          },
+        });
+        console.log(res);
+        // wait for 5 seconds
+        setTimeout(() => {
+          console.log('Waiting for 5 seconds...');
+        }, 5000);
+      }
+      // Establish a connection to your Socket.IO server
+      const socket = io('https://mobile.sawalive.live/', {
+        auth: {
+          token:
+            'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NmY0Yjk4NmNhMTlhYTdjZjBjYjE1MjkiLCJpYXQiOjE3Mjc0NTI3ODAsImV4cCI6MTczMjg1Mjc4MCwidHlwZSI6ImFjY2VzcyJ9.IrmjRWeroDAo_POwGckGi1Aszg5zpRj_ywdoC2mnFcU', // Add the JWT token if your server requires it
+        },
+      });
+
+      // fetch to http://sawa.physio-alpha.de/v1/games/user-data?userId=66f05657d9ba5100207939f3'
+
+      // Listen for connection
+      socket.on('connect', () => {
+        console.log('Connected to the server, socket ID:', socket.id);
+      });
+
+      // Listen for custom events (replace 'newMessage' with your event)
+      socket.on('newMessage', (message) => {
+        console.log('New message received:', message);
+      });
+
+      // Send a test message
+      socket.emit('sendMessage', {
+        conversationId: '12345',
+        messageType: 'text',
+        content: 'Hello, World!',
+      });
+
+      // Listen for disconnection
+      socket.on('disconnect', () => {
+        console.log('Disconnected from the server');
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "sawa-app",
+      "script": "src/index.js",
+      "instances": 1,
+      "exec_mode": "fork",
+      "interpreter": "node",
+      "autorestart": true,
+      "watch": false,
+      "time": true,
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

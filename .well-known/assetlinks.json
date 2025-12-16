@@ -1,0 +1,19 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.sawalive.live",
+      "sha256_cert_fingerprints": [
+        "FA:DA:51:F8:5B:EB:A1:28:20:61:23:86:92:F6:BF:BE:1C:81:29:BF:60:7F:74:2A:DF:43:34:FA:77:23:11:9B",
+        "CE:06:25:E2:04:96:5F:2C:D6:92:D5:FE:4C:A3:6E:43:E5:78:D0:75:D2:3D:9F:A2:BD:10:3E:26:23:0A:0D:A0",
+        "19:E3:E4:A6:E9:F0:B3:5F:7B:2C:6E:78:B9:2B:AC:4E:2A:EA:D1:58",
+        "49:71:BC:8C:17:30:17:D0:F9:60:D0:7A:86:FE:0B:75:37:0A:CD:10:42:AE:DF:47:19:76:15:BC:B2:1D:7F:69",
+        "58:74:25:B8:33:20:3C:3A:FA:1A:8A:D0:F3:F5:7A:8F:40:DF:FE:8D",
+        "D5:36:AB:EE:34:0D:D9:06:95:30:C7:74:AB:C2:DC:44:D9:A8:7D:09:0E:6F:F3:4D:E1:70:89:79:A2:D4:AC:89"
+      ]
+    }
+  }
+]

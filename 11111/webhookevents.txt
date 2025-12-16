@@ -1,0 +1,135 @@
+WebhookEvent {
+  event: 'room_finished',
+  id: 'EV_DyADxfugDAid',
+  createdAt: 1736526676n,
+  numDropped: 0,
+  room: Room {
+    sid: 'RM_6Vw9tZ8XHJCh',
+    name: '675b67f30143a4b867cfe29a',
+    emptyTimeout: 300,
+    departureTimeout: 5,
+    maxParticipants: 0,
+    creationTime: 1736526671n,
+    turnPassword: 'cd7HC2SUWr2wDPP7iiI77A0nvFmndEFSkdOY0HcY2vA',
+    enabledCodecs: [ [Codec], [Codec] ],
+    metadata: '',
+    numParticipants: 0,
+    numPublishers: 0,
+    activeRecording: false
+  }
+}
+```
+WebhookEvent {
+  event: 'room_started',
+  id: 'EV_XFo5oGjspESc',
+  createdAt: 1736526782n,
+  numDropped: 0,
+  room: Room {
+    sid: 'RM_3fEFyap3Qdza',
+    name: '675b67f30143a4b867cfe29a',
+    emptyTimeout: 300,
+    departureTimeout: 5,
+    maxParticipants: 0,
+    creationTime: 1736526782n,
+    turnPassword: '9LLNl4krWcbP9qNM34KnnJBebTaKcaq0KJczaWRffzUA',
+    enabledCodecs: [ [Codec], [Codec] ],
+    metadata: '',
+    numParticipants: 0,
+    numPublishers: 0,
+    activeRecording: false
+  }
+}
+```
+WebhookEvent {
+  event: 'participant_joined',
+  id: 'EV_Lbvv6CPErpxx',
+  createdAt: 1736526784n,
+  numDropped: 0,
+  room: Room {
+    sid: 'RM_3fEFyap3Qdza',
+    name: '675b67f30143a4b867cfe29a',
+    emptyTimeout: 300,
+    departureTimeout: 5,
+    maxParticipants: 0,
+    creationTime: 1736526782n,
+    turnPassword: '9LLNl4krWcbP9qNM34KnnJBebTaKcaq0KJczaWRffzUA',
+    enabledCodecs: [ [Codec], [Codec] ],
+    metadata: '',
+    numParticipants: 0,
+    numPublishers: 0,
+    activeRecording: false
+  },
+  participant: ParticipantInfo {
+    sid: 'PA_D7iJPXYdChfi',
+    identity: '670844dfb44cbeef0d6a96af',
+    state: 2,
+    tracks: [ [TrackInfo], [TrackInfo] ],
+    metadata: '',
+    joinedAt: 1736526782n,
+    name: '',
+    version: 6,
+    region: '',
+    isPublisher: true,
+    kind: 0,
+    attributes: {},
+    disconnectReason: 0,
+    permission: ParticipantPermission {
+      canSubscribe: true,
+      canPublish: true,
+      canPublishData: true,
+      canPublishSources: [],
+      hidden: false,
+      recorder: false,
+      canUpdateMetadata: false,
+      agent: false,
+      canSubscribeMetrics: false
+    }
+  }
+}
+```
+WebhookEvent {
+ event: 'participant_left',
+ id: 'EV_4Jn7RpzcTkWd',
+ createdAt: 1736526886n,
+ numDropped: 0,
+ room: Room {
+   sid: 'RM_3fEFyap3Qdza',
+   name: '675b67f30143a4b867cfe29a',
+   emptyTimeout: 300,
+   departureTimeout: 5,
+   maxParticipants: 0,
+   creationTime: 1736526782n,
+   turnPassword: '9LLNl4krWcbP9qNM34KnnJBebTaKcaq0KJczaWRffzUA',
+   enabledCodecs: [ [Codec], [Codec] ],
+   metadata: '',
+   numParticipants: 0,
+   numPublishers: 0,
+   activeRecording: false
+ },
+ participant: ParticipantInfo {
+   sid: 'PA_D7iJPXYdChfi',
+   identity: '670844dfb44cbeef0d6a96af',
+   state: 3,
+   tracks: [],
+   metadata: '',
+   joinedAt: 1736526782n,
+   name: '',
+   version: 8,
+   region: '',
+   isPublisher: true,
+   kind: 0,
+   attributes: {},
+   disconnectReason: 1,
+   permission: ParticipantPermission {
+     canSubscribe: true,
+     canPublish: true,
+     canPublishData: true,
+     canPublishSources: [],
+     hidden: false,
+     recorder: false,
+     canUpdateMetadata: false,
+     agent: false,
+     canSubscribeMetrics: false
+   }
+ }
+}

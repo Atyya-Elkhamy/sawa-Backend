@@ -1,0 +1,19 @@
+{
+	"sans": [
+		"front.sawalive.live"
+	],
+	"issuer_data": {
+		"url": "https://acme-v02.api.letsencrypt.org/acme/cert/0526fde98976881e0834c16c1d3d9770f232",
+		"ca": "https://acme-v02.api.letsencrypt.org/directory",
+		"account": "https://acme-v02.api.letsencrypt.org/acme/acct/2583259436",
+		"renewal_info": {
+			"suggestedWindow": {
+				"start": "2026-02-13T00:18:58Z",
+				"end": "2026-02-14T19:29:47Z"
+			},
+			"_uniqueIdentifier": "rkie3IcdRKBv2qLlYHQEeMKcAIA.BSb96Yl2iB4INMFsHT2XcPIy",
+			"_retryAfter": "2025-12-16T16:44:16.455946035Z",
+			"_selectedTime": "2026-02-14T06:37:45Z"
+		}
+	}
+}

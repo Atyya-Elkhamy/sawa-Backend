@@ -1,0 +1,207 @@
+
+-اعتمد علي الروم اي دي والغي ال from chat
+
+event: 'SystemMessage-Broadcast',
+    data: {
+      content,
+      createdAt: new Date(),
+      broadCastId,
+    },
+    oneSignal: true,
+
+event: 'SystemMessage-OnScreen',
+    data: {
+      content,
+      createdAt: new Date(),
+    },
+    oneSignal: false,
+
+event: 'SystemMessage-individual',
+    data: {
+      content,
+      createdAt: new Date(),
+    },
+    oneSignal: true,
+
+event: 'specialGiftSent',
+    data: {
+      giftId,
+      senderId,
+      gift: {
+        ...gift,
+        price: giftPrice,
+      },
+      roomId,
+      amount,
+    },
+    oneSignal: false,
+    Sending event specialGiftSent to all users
+Sending event specialGiftSent to all users {"giftId":"67b02fd09a1d39e37d9f8624","senderId":"66f05657d9ba5100207939f3","sender":{"id":"66f05657d9ba5100207939f3","_id":"66f05657d9ba5100207939f3","name":"آ̯͡ل̯͡ص̯͡ف̯͡ت̯͡ﮯ͡","avatar":"https://app.sawalive.live/uploads/avatars/1740744347484-WhatsApp Image 2024-          -09-01 at 18.22.34_36df6331.jpg","userId":"68534506"},"recipients":[{"id":"67c03025d1a5b56ee0860593","_id":"67c03025d1a5b56ee0860593","name":"Mohamed Elsafty 0X000","avatar":"","userId":"65766161"}],"gift":{"_id":"67b02fd09a1d39e37d9f8624","image":"https://img.svga.vip/uploads/images/20241104/9639e1f9ef43f790238f63b6779837f3.png","name":"هدية 2","price":5000,"category":"67bbd080719fc46ec191a2c4","gameMultiplier":1,"type":"free","file":"https://github.com/svga/SVGA-Samples/raw/refs/heads/master/angel.svga","hidden":false,"createdAt":"2025-02-15T06:10:24.451Z","updatedAt":"2025-02-24T01:51:28.062Z","__v":0},"roomId":"67c062fd6d31e817263d775c","room":{"id":"67c062fd6d31e817263d775c","_id":"67c062fd6d31e817263d775c","name":"room google","image":"https://app.sawalive.live/uploads/avatars/1740744997565-IMG_20231113_194100.jpg","roomType":"classicRoom","isPrivate":true,"background":{"name":"Default Background","image":"","file":"","isPro":false,"id":"default_id"}},"amount":100}
+
+
+event: 'newMessage',
+  data: {
+    conversationId: '67353235152b1e6a9a8d8829',
+    senderId: '66f05657d9ba5100207939f3',
+    receiverId: new ObjectId('6732ad3a2e3792cbc9c88b8f'),
+    messageType: 'text',
+    content: { body: 'للللل لك' },
+    isRead: false,
+    _id: new ObjectId('67e3200ee9ad0fbb5aa27f43'),
+    createdAt: 2025-03-25T21:28:46.023Z,
+    updatedAt: 2025-03-25T21:28:46.023Z,
+    __v: 0,
+    id: '67e3200ee9ad0fbb5aa27f43',
+    senderName: 'الصفتي',
+    senderAvatar: 'https://sawa-sawa.s3.eu-north-1.amazonaws.com/a80c266d-f6f7-45d8-b8c0-850d6cb185ac-.jpg',
+    conversation: {
+      _id: new ObjectId('67353235152b1e6a9a8d8829'),
+      id: new ObjectId('67353235152b1e6a9a8d8829'),
+      lastMessage: {
+        conversationId: new ObjectId('67353235152b1e6a9a8d8829'),
+        senderId: new ObjectId('66f05657d9ba5100207939f3'),
+        receiverId: new ObjectId('6732ad3a2e3792cbc9c88b8f'),
+        messageType: 'text',
+        content: { body: 'للللل لك' },
+        isRead: false,
+        _id: new ObjectId('67e3200ee9ad0fbb5aa27f43'),
+        createdAt: 2025-03-25T21:28:46.023Z,
+        updatedAt: 2025-03-25T21:28:46.023Z,
+        __v: 0,
+        id: '67e3200ee9ad0fbb5aa27f43'
+      },
+      user: {
+        frame: {
+          url: 'https://sawa.brandsecrets.net/public/items/vip_items/files/frame/VIP5.svga',
+          expirationDate: 2025-04-05T00:26:32.888Z
+        },
+        specialId: { expirationDate: 2025-02-06T01:19:11.170Z, url: '' },
+        _id: new ObjectId('66f05657d9ba5100207939f3'),
+        avatar: 'https://sawa-sawa.s3.eu-north-1.amazonaws.com/a80c266d-f6f7-45d8-b8c0-850d6cb185ac-.jpg',
+        countryCode: 'BH',
+        famePoints: 4000,
+        richPoints: 2000,
+        level: 34,
+        dateOfBirth: 1997-01-31T00:00:00.000Z,
+        name: 'الصفتي',
+        userId: '69796360',
+        isMale: true,
+        chargeLevel: 8,
+        currentRoom: null
+      },
+      unreadCount: 8
+    }
+  }
+    oneSignal: true,
+
+desc: room broad cast from room owner
+event: 'liveMessage',
+    data: Data as {
+    message,
+    room: id || _id,
+    image,
+    roomName: name,
+    }
+    oneSignal: true,
+//example
+info: Sending event liveMessage  to all users {"message":"testing","room":"6793a698030704308fddedda","image":"https://sawa.brandsecrets.net/uploads/avatars/1740374319580-IMG_20231113_194100.jpg","roomName":"elsafty","background":{"name":"Default Background","image":"","file":"","isPro":false,"id":"default_id"},"roomType":"hafla7Room","isPrivate":true}
+
+event: 'strangerGiftReceived',
+    data: {
+      giftId,
+      senderId,
+      roomId,
+      amount,
+    },
+    oneSignal: true
+
+event: 'newFollower',
+    data: {
+      followerId,
+      message,
+    },
+    oneSignal: true
+
+event: 'vipUserConnected',
+    data: {
+      id: userId,
+      vip: user.vip.level,
+      name: user.name,
+      avatar: user.avatar,
+    },
+    oneSignal: false
+event: 'user-vip-subscribed',
+    {
+      id: req.user.id,
+      name: req.user.name,
+      avatar: req.user.avatar,
+      level,
+      days,
+    },
+    oneSignal: false
+
+event:  'userBalanceChange',
+    {
+      amount,
+      newBalance: user.credits,
+      type: 'credit',
+      description,
+      descriptionAr,
+    },
+    userId,
+    false
+
+event: 'blockFromGroup',
+    {
+        groupId,
+        userId: userId.toString(),
+        message: 'You have been blocked from the group',
+        messageAr: 'لقد تم حظرك من المجموعة',
+    },
+      userId,
+    oneSignal: false
+
+    'userDeletedFromGroup',
+    {
+      groupId,
+      userId: userId?.toString(),
+      message: 'You have been blocked from the group',
+      messageAr: 'لقد تم حظرك من المجموعة',
+    },
+    userId?.toString(),
+    false
+  );
+
+event: 'groupDeleted',
+      {
+        groupId: groupId.toString(),
+        message: 'Group has been deleted by the admin',
+        messageAr: 'تم حذف المجموعة بواسطة المشرف',
+      },
+      m._id.toString(),
+      false
+event: 'userBlacklisted',
+              {
+                userId: String(userId),
+                message: 'Your account has been banned',
+                messageAr: 'تم حظر حسابك',
+                expiresAt: request?.payload?.blackListExpires || null,
+              },
+              uid,
+              false
+
+
+        
+
+onConnectConversation:
+  'convId'
+
+onLeaveConversation:
+  'convId'
+  
+//oneSignal events:
+  // newFollower
+  // newMessage
+  // strangerGiftReceived
+  // SystemMessage-individual
+  // SystemMessage-Broadcast

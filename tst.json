@@ -1,0 +1,673 @@
+{
+    "list": [
+        {
+            "isSecure": false,
+            "conversationId": "68815ca3261d1437c7a13789",
+            "lastMessage": {
+                "_id": "68817dc8261d1437c7a30721",
+                "conversationId": "68815ca3261d1437c7a13789",
+                "senderId": "68803371261d1437c7958e31",
+                "receiverId": "6865eab47809c71b144139bd",
+                "messageType": "text",
+                "content": {
+                    "body": "وف الاخر تقول طريقتك مش حلوه"
+                },
+                "isRead": false,
+                "isDeleted": false,
+                "createdAt": "2025-07-24T00:26:48.532Z",
+                "updatedAt": "2025-07-24T00:26:48.532Z",
+                "__v": 0,
+                "id": "68817dc8261d1437c7a30721"
+            },
+            "unreadCount": 4
+        },
+        {
+            "isSecure": false,
+            "conversationId": "688165dd261d1437c7a178d3",
+            "lastMessage": {
+                "_id": "68817777261d1437c7a2a95b",
+                "conversationId": "688165dd261d1437c7a178d3",
+                "senderId": "6865eab47809c71b144139bd",
+                "receiverId": "688157db261d1437c7a11be2",
+                "messageType": "gift",
+                "content": {
+                    "body": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/6881775d261d1437c7a2a439/1 (14).svga",
+                    "giftId": "6881775d261d1437c7a2a439",
+                    "amount": 1
+                },
+                "isRead": true,
+                "isDeleted": false,
+                "createdAt": "2025-07-23T23:59:51.209Z",
+                "updatedAt": "2025-07-24T00:05:04.885Z",
+                "__v": 0,
+                "id": "68817777261d1437c7a2a95b"
+            },
+            "user": {
+                "specialId": {
+                    "activeSpecialId": null,
+                    "url": "",
+                    "expirationDate": "2025-08-23T22:00:00.651Z"
+                },
+                "_id": "688157db261d1437c7a11be2",
+                "name": "Sally",
+                "userId": "94308829",
+                "avatar": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/4c2d6ce1-8ca8-4168-b895-adceaf30a44b-.jpg",
+                "isOnline": false,
+                "lastSeen": "2025-07-30T08:03:33.662Z"
+            },
+            "unreadCount": 0
+        },
+        {
+            "isSecure": false,
+            "conversationId": "687d79d1ab58bd02ee6e7d3d",
+            "lastMessage": {
+                "_id": "68816d50261d1437c7a1d229",
+                "conversationId": "687d79d1ab58bd02ee6e7d3d",
+                "senderId": "6865eab47809c71b144139bd",
+                "receiverId": "687d732827e2526fd819cca5",
+                "messageType": "gift",
+                "content": {
+                    "body": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/68816d28261d1437c7a1cea1/cup.png",
+                    "giftId": "68816d28261d1437c7a1cea1",
+                    "amount": 1
+                },
+                "isRead": false,
+                "isDeleted": false,
+                "createdAt": "2025-07-23T23:16:32.199Z",
+                "updatedAt": "2025-07-23T23:16:32.199Z",
+                "__v": 0,
+                "id": "68816d50261d1437c7a1d229"
+            },
+            "user": {
+                "specialId": {
+                    "activeSpecialId": null,
+                    "url": "44425015",
+                    "expirationDate": "2025-07-28T01:22:54.904Z"
+                },
+                "_id": "687d732827e2526fd819cca5",
+                "name": "𝓜𝓸𝓱𝓪𝓶𝓶𝓮𝓭",
+                "userId": "90131921",
+                "avatar": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/a0875525-c934-40bb-8d46-f4229af498e4-.jpg",
+                "isOnline": false,
+                "lastSeen": "2025-08-28T03:41:16.180Z"
+            },
+            "unreadCount": 0
+        },
+        {
+            "isSecure": false,
+            "conversationId": "6880eaa9261d1437c79dfceb",
+            "lastMessage": {
+                "_id": "68816cff261d1437c7a1cc35",
+                "conversationId": "6880eaa9261d1437c79dfceb",
+                "senderId": "688078e3261d1437c7987d51",
+                "receiverId": "6865eab47809c71b144139bd",
+                "messageType": "text",
+                "content": {
+                    "body": "صباح الفل "
+                },
+                "isRead": false,
+                "isDeleted": false,
+                "createdAt": "2025-07-23T23:15:11.721Z",
+                "updatedAt": "2025-07-23T23:15:11.721Z",
+                "__v": 0,
+                "id": "68816cff261d1437c7a1cc35"
+            },
+            "user": {
+                "specialId": {
+                    "activeSpecialId": null,
+                    "url": "",
+                    "expirationDate": "2025-07-30T22:00:00.524Z"
+                },
+                "_id": "688078e3261d1437c7987d51",
+                "name": "السᬼـلــ͜⁶¹⁵ـ͜طـᬼان",
+                "userId": "71839951",
+                "avatar": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/5f88f513-7f6d-4d8a-9ddd-1522e0b22609-.jpg",
+                "isOnline": false,
+                "lastSeen": "2025-08-22T00:00:19.209Z"
+            },
+            "unreadCount": 1
+        },
+        {
+            "isSecure": false,
+            "conversationId": "6880eb6d261d1437c79e0954",
+            "lastMessage": {
+                "_id": "6880eba7261d1437c79e0c5c",
+                "conversationId": "6880eb6d261d1437c79e0954",
+                "senderId": "687d260e902d5b1253ecf8d3",
+                "receiverId": "6865eab47809c71b144139bd",
+                "messageType": "text",
+                "content": {
+                    "body": "اهم شي الاعاب "
+                },
+                "isRead": true,
+                "isDeleted": false,
+                "createdAt": "2025-07-23T14:03:19.057Z",
+                "updatedAt": "2025-07-24T11:51:29.841Z",
+                "__v": 0,
+                "id": "6880eba7261d1437c79e0c5c"
+            },
+            "user": {
+                "specialId": {
+                    "activeSpecialId": null,
+                    "url": "77769697",
+                    "expirationDate": "2025-08-20T05:45:26.554Z"
+                },
+                "_id": "687d260e902d5b1253ecf8d3",
+                "name": "مـسـتر اتـــشـ🕶",
+                "userId": "74767822",
+                "avatar": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/9cd5d2de-07ec-4f0d-ab27-88386fec24a8-.jpg",
+                "isOnline": false,
+                "lastSeen": "2025-08-20T17:43:37.216Z"
+            },
+            "unreadCount": 0
+        },
+        {
+            "isSecure": false,
+            "conversationId": "687eef56261d1437c78cc00f",
+            "lastMessage": {
+                "_id": "6880eb2c261d1437c79e04b6",
+                "conversationId": "687eef56261d1437c78cc00f",
+                "senderId": "687ee44e261d1437c78c76ab",
+                "receiverId": "6865eab47809c71b144139bd",
+                "messageType": "text",
+                "content": {
+                    "body": "هات رقمك "
+                },
+                "isRead": false,
+                "isDeleted": false,
+                "createdAt": "2025-07-23T14:01:16.730Z",
+                "updatedAt": "2025-07-23T14:01:16.730Z",
+                "__v": 0,
+                "id": "6880eb2c261d1437c79e04b6"
+            },
+            "unreadCount": 2
+        },
+        {
+            "isSecure": false,
+            "conversationId": "687ea0a7261d1437c7890550",
+            "lastMessage": {
+                "_id": "6880688e261d1437c797dccf",
+                "conversationId": "687ea0a7261d1437c7890550",
+                "senderId": "687d1a16902d5b1253ec5a1d",
+                "receiverId": "6865eab47809c71b144139bd",
+                "messageType": "text",
+                "content": {
+                    "body": "بالله نزلي كوينزات ياجدع😂"
+                },
+                "isRead": false,
+                "isDeleted": false,
+                "createdAt": "2025-07-23T04:43:58.506Z",
+                "updatedAt": "2025-07-23T04:43:58.506Z",
+                "__v": 0,
+                "id": "6880688e261d1437c797dccf"
+            },
+            "user": {
+                "specialId": {
+                    "activeSpecialId": null,
+                    "url": "77776289",
+                    "expirationDate": "2703-05-01T17:36:22.982Z"
+                },
+                "_id": "687d1a16902d5b1253ec5a1d",
+                "name": "ٌْ𖤇⋆⃝T҉ꍏy͜͡Ҝꂦ𖤇ٌٌٍٓ༢",
+                "userId": "54686328",
+                "avatar": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/b5d0823a-712e-4f12-bcdf-50af661689bf-.png",
+                "isOnline": false,
+                "lastSeen": "2025-08-26T03:13:32.350Z"
+            },
+            "unreadCount": 2
+        },
+        {
+            "isSecure": false,
+            "conversationId": "688019ec261d1437c794e55d",
+            "lastMessage": {
+                "_id": "68801a48261d1437c794e7d5",
+                "conversationId": "688019ec261d1437c794e55d",
+                "senderId": "68800ce2261d1437c7949562",
+                "receiverId": "6865eab47809c71b144139bd",
+                "messageType": "text",
+                "content": {
+                    "body": "مين"
+                },
+                "isRead": true,
+                "isDeleted": false,
+                "createdAt": "2025-07-22T23:10:00.266Z",
+                "updatedAt": "2025-07-22T23:15:20.239Z",
+                "__v": 0,
+                "id": "68801a48261d1437c794e7d5"
+            },
+            "user": {
+                "specialId": {
+                    "activeSpecialId": null,
+                    "url": "",
+                    "expirationDate": "2025-08-22T22:00:00.088Z"
+                },
+                "_id": "68800ce2261d1437c7949562",
+                "name": "𓆉︎",
+                "userId": "67606844",
+                "avatar": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/1d08f475-92fa-45b5-b8dc-814577f88efe-.jpg",
+                "isOnline": false,
+                "lastSeen": "2025-08-22T14:57:24.381Z"
+            },
+            "unreadCount": 0
+        },
+        {
+            "isSecure": false,
+            "conversationId": "687f5de1261d1437c78ddd9b",
+            "lastMessage": {
+                "_id": "687fb8e0261d1437c791ca6e",
+                "conversationId": "687f5de1261d1437c78ddd9b",
+                "senderId": "687f332d261d1437c78d6758",
+                "receiverId": "6865eab47809c71b144139bd",
+                "messageType": "text",
+                "content": {
+                    "body": "تسلم "
+                },
+                "isRead": true,
+                "isDeleted": false,
+                "createdAt": "2025-07-22T16:14:24.446Z",
+                "updatedAt": "2025-07-22T16:22:01.725Z",
+                "__v": 0,
+                "id": "687fb8e0261d1437c791ca6e"
+            },
+            "user": {
+                "specialId": {
+                    "activeSpecialId": null,
+                    "url": "",
+                    "expirationDate": "2025-07-29T22:00:00.170Z"
+                },
+                "_id": "687f332d261d1437c78d6758",
+                "name": "\u0000ツ𝒉͢𝒎𝐬ᒻᵒ͢˅ᵊ",
+                "userId": "55974625",
+                "avatar": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/fb0f048d-e051-4f85-8415-8f3f278c3c96-.jpg",
+                "isOnline": false,
+                "lastSeen": "2025-07-31T04:21:29.607Z"
+            },
+            "unreadCount": 0
+        },
+        {
+            "isSecure": false,
+            "conversationId": "687da631261d1437c77de7cd",
+            "lastMessage": {
+                "_id": "687fa19c261d1437c790af66",
+                "conversationId": "687da631261d1437c77de7cd",
+                "senderId": "6865eab47809c71b144139bd",
+                "receiverId": "687d760627e2526fd819fd14",
+                "messageType": "gift",
+                "content": {
+                    "body": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/687f9728261d1437c78fe211/wow with sound.svga",
+                    "giftId": "687f9728261d1437c78fe211",
+                    "amount": 1
+                },
+                "isRead": true,
+                "isDeleted": false,
+                "createdAt": "2025-07-22T14:35:08.062Z",
+                "updatedAt": "2025-07-22T14:36:06.060Z",
+                "__v": 0,
+                "id": "687fa19c261d1437c790af66"
+            },
+            "user": {
+                "specialId": {
+                    "activeSpecialId": null,
+                    "url": "77750484",
+                    "expirationDate": "2025-08-21T02:29:28.460Z"
+                },
+                "_id": "687d760627e2526fd819fd14",
+                "name": "روح 🍓",
+                "userId": "21432543",
+                "avatar": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/818111c9-8811-4910-b8ff-aae39d072c40-.jpg",
+                "isOnline": false,
+                "lastSeen": "2025-07-31T01:20:46.610Z"
+            },
+            "unreadCount": 0
+        },
+        {
+            "isSecure": false,
+            "conversationId": "687e3d78261d1437c784659a",
+            "lastMessage": {
+                "_id": "687f7465261d1437c78e5161",
+                "conversationId": "687e3d78261d1437c784659a",
+                "senderId": "687e2826261d1437c78365cb",
+                "receiverId": "6865eab47809c71b144139bd",
+                "messageType": "text",
+                "content": {
+                    "body": "يانوح"
+                },
+                "isRead": true,
+                "isDeleted": false,
+                "createdAt": "2025-07-22T11:22:13.472Z",
+                "updatedAt": "2025-07-22T11:32:42.712Z",
+                "__v": 0,
+                "id": "687f7465261d1437c78e5161"
+            },
+            "user": {
+                "specialId": {
+                    "activeSpecialId": null,
+                    "url": "",
+                    "expirationDate": "2025-07-21T00:00:47.670Z"
+                },
+                "_id": "687e2826261d1437c78365cb",
+                "name": "Shams💞",
+                "userId": "83920484",
+                "avatar": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/eb04fad6-9ad8-453a-9d42-9dc137ed5ad3-.jpg",
+                "isOnline": false,
+                "lastSeen": "2025-07-22T11:34:08.090Z"
+            },
+            "unreadCount": 0
+        },
+        {
+            "isSecure": false,
+            "conversationId": "687f7444261d1437c78e502d",
+            "lastMessage": {
+                "_id": "687f744a261d1437c78e5045",
+                "conversationId": "687f7444261d1437c78e502d",
+                "senderId": "6865eab47809c71b144139bd",
+                "receiverId": "687d688927e2526fd818d243",
+                "messageType": "text",
+                "content": {
+                    "body": "نورتي "
+                },
+                "isRead": true,
+                "isDeleted": false,
+                "createdAt": "2025-07-22T11:21:46.132Z",
+                "updatedAt": "2025-07-22T11:21:53.539Z",
+                "__v": 0,
+                "id": "687f744a261d1437c78e5045"
+            },
+            "user": {
+                "specialId": {
+                    "activeSpecialId": null,
+                    "url": "33342958",
+                    "expirationDate": "2025-07-30T08:38:40.903Z"
+                },
+                "_id": "687d688927e2526fd818d243",
+                "name": "𓍲┊͙ ඊ ɠ⎽බᓆ",
+                "userId": "96436033",
+                "avatar": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/fd09af19-b1e1-4e14-a3a8-33bd3158d269-.jpg",
+                "isOnline": false,
+                "lastSeen": "2025-08-28T14:52:45.433Z"
+            },
+            "unreadCount": 0
+        },
+        {
+            "isSecure": false,
+            "conversationId": "687eb4cd261d1437c78a32f3",
+            "lastMessage": {
+                "_id": "687ecb9e261d1437c78b9a35",
+                "conversationId": "687eb4cd261d1437c78a32f3",
+                "senderId": "687e3079261d1437c783b95a",
+                "receiverId": "6865eab47809c71b144139bd",
+                "messageType": "gift",
+                "content": {
+                    "body": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/6861b48382476dce0e4cf40d/Gold_car.svga",
+                    "giftId": "6861b48382476dce0e4cf40d",
+                    "amount": 555
+                },
+                "isRead": true,
+                "isDeleted": false,
+                "createdAt": "2025-07-21T23:22:06.455Z",
+                "updatedAt": "2025-07-22T01:08:47.084Z",
+                "__v": 0,
+                "id": "687ecb9e261d1437c78b9a35"
+            },
+            "user": {
+                "specialId": {
+                    "activeSpecialId": null,
+                    "url": "77784339",
+                    "expirationDate": "2026-02-22T18:44:10.053Z"
+                },
+                "_id": "687e3079261d1437c783b95a",
+                "name": "🫶᱑⎽ٍِɾʅᒧĝა⎽෴ᒧไ🫶",
+                "userId": "29970126",
+                "avatar": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/86a6bf99-c634-400a-b18e-c56e51fbfd03-.jpg",
+                "isOnline": false,
+                "lastSeen": "2025-08-19T15:27:16.001Z"
+            },
+            "unreadCount": 0
+        },
+        {
+            "isSecure": false,
+            "conversationId": "687ec60a261d1437c78b5659",
+            "lastMessage": {
+                "_id": "687ec674261d1437c78b5be8",
+                "conversationId": "687ec60a261d1437c78b5659",
+                "senderId": "687e74cd261d1437c786b649",
+                "receiverId": "6865eab47809c71b144139bd",
+                "messageType": "text",
+                "content": {
+                    "body": "ماشى "
+                },
+                "isRead": true,
+                "isDeleted": false,
+                "createdAt": "2025-07-21T23:00:04.102Z",
+                "updatedAt": "2025-07-21T23:02:53.004Z",
+                "__v": 0,
+                "id": "687ec674261d1437c78b5be8"
+            },
+            "user": {
+                "specialId": {
+                    "activeSpecialId": null,
+                    "url": "",
+                    "expirationDate": "2025-08-20T22:00:00.510Z"
+                },
+                "_id": "687e74cd261d1437c786b649",
+                "name": "𝙎𝙋𝙀𝘾𝙄𝘼𝙇🍷",
+                "userId": "20483215",
+                "avatar": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/8360df3d-c539-41e1-b478-9fb39275b753-.jpg",
+                "isOnline": false,
+                "lastSeen": "2025-07-26T08:31:13.168Z"
+            },
+            "unreadCount": 0
+        },
+        {
+            "isSecure": false,
+            "conversationId": "687e1966261d1437c782db4e",
+            "lastMessage": {
+                "_id": "687eae6e261d1437c789c7a5",
+                "conversationId": "687e1966261d1437c782db4e",
+                "senderId": "687da263261d1437c77daf10",
+                "receiverId": "6865eab47809c71b144139bd",
+                "messageType": "text",
+                "content": {
+                    "body": "ياسطا"
+                },
+                "isRead": true,
+                "isDeleted": false,
+                "createdAt": "2025-07-21T21:17:34.388Z",
+                "updatedAt": "2025-07-22T10:09:12.306Z",
+                "__v": 0,
+                "id": "687eae6e261d1437c789c7a5"
+            },
+            "user": {
+                "specialId": {
+                    "activeSpecialId": null,
+                    "url": "77735337",
+                    "expirationDate": "2026-10-14T05:10:35.643Z"
+                },
+                "_id": "687da263261d1437c77daf10",
+                "name": "𝄞⃝𝗞𝗲❦︎𝗺𝗼𖤍",
+                "userId": "96588450",
+                "avatar": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/51357c8d-b2a7-47fb-a134-cc6930d4b1c1-.png",
+                "isOnline": false,
+                "lastSeen": "2025-08-24T23:39:53.499Z"
+            },
+            "unreadCount": 0
+        },
+        {
+            "isSecure": false,
+            "conversationId": "687e9b7f261d1437c788be99",
+            "lastMessage": {
+                "_id": "687e9b88261d1437c788bedb",
+                "conversationId": "687e9b7f261d1437c788be99",
+                "senderId": "687e692d261d1437c786069d",
+                "receiverId": "6865eab47809c71b144139bd",
+                "messageType": "text",
+                "content": {
+                    "body": "آلُـۜسـۨۚ(✋)ــِۖلُأمٌ ؏ـليۜـ(💜)ـكـۜم وݛحـٍّْـٍّْ⁽😘₎ـٍّْمهہ الًـًٍۖـٍـٍۖ(☝)ٍۖـًٍٍٍّـًٍلۖهًٍۖۂ وبـۗـۗـۗـۗـۗـۗركۧۧــۧۧۧۧۧـۗـۗ(ۗ😇)ـۗـۗاتهۂ "
+                },
+                "isRead": false,
+                "isDeleted": false,
+                "createdAt": "2025-07-21T19:56:56.888Z",
+                "updatedAt": "2025-07-21T19:56:56.888Z",
+                "__v": 0,
+                "id": "687e9b88261d1437c788bedb"
+            },
+            "user": {
+                "specialId": {
+                    "activeSpecialId": null,
+                    "url": "",
+                    "expirationDate": "2025-07-28T22:00:00.061Z"
+                },
+                "_id": "687e692d261d1437c786069d",
+                "name": "𓆩⍣⃝ÃβỖ ẸĹÃŘÃβЎ",
+                "userId": "11181928",
+                "avatar": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/0c3bfbf7-2b76-448b-8cc4-2368c0ff8f62-.jpg",
+                "isOnline": false,
+                "lastSeen": "2025-07-25T17:20:06.737Z"
+            },
+            "unreadCount": 2
+        },
+        {
+            "isSecure": false,
+            "conversationId": "687c049b902d5b1253e60fce",
+            "lastMessage": {
+                "_id": "687e16af261d1437c782ab09",
+                "conversationId": "687c049b902d5b1253e60fce",
+                "senderId": "6865eab47809c71b144139bd",
+                "receiverId": "687c0455902d5b1253e60ece",
+                "messageType": "text",
+                "content": {
+                    "body": "عايزك انا يا معلم"
+                },
+                "isRead": false,
+                "isDeleted": false,
+                "createdAt": "2025-07-21T10:30:07.405Z",
+                "updatedAt": "2025-07-21T10:30:07.405Z",
+                "__v": 0,
+                "id": "687e16af261d1437c782ab09"
+            },
+            "user": {
+                "specialId": {
+                    "activeSpecialId": null,
+                    "url": "",
+                    "expirationDate": "2025-08-09T22:00:00.956Z"
+                },
+                "_id": "687c0455902d5b1253e60ece",
+                "name": "⁶⁴تـ,يَتـ,ۈ⁹⁴😈☠⃟͢",
+                "userId": "92020986",
+                "avatar": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/778dd42e-3dd8-44fd-b59a-744e525a6db0-.jpg",
+                "isOnline": false,
+                "lastSeen": "2025-08-25T20:16:09.984Z"
+            },
+            "unreadCount": 0
+        },
+        {
+            "isSecure": false,
+            "conversationId": "687df71b261d1437c7814a07",
+            "lastMessage": {
+                "_id": "687e042c261d1437c781feb1",
+                "conversationId": "687df71b261d1437c7814a07",
+                "senderId": "687d36991c7445a791871218",
+                "receiverId": "6865eab47809c71b144139bd",
+                "messageType": "text",
+                "content": {
+                    "body": "نوم الهنا"
+                },
+                "isRead": true,
+                "isDeleted": false,
+                "createdAt": "2025-07-21T09:11:08.916Z",
+                "updatedAt": "2025-07-21T09:13:52.450Z",
+                "__v": 0,
+                "id": "687e042c261d1437c781feb1"
+            },
+            "user": {
+                "specialId": {
+                    "activeSpecialId": null,
+                    "url": "77762187",
+                    "expirationDate": "2025-07-28T08:23:33.464Z"
+                },
+                "_id": "687d36991c7445a791871218",
+                "name": "❥𝙲𝙾𝙲𝙰𝙸𝙽ë❥્᭄͜͜͡",
+                "userId": "35199573",
+                "avatar": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/e9f98779-9e52-4a98-a13b-c8a8b516e4ba-.jpg",
+                "isOnline": false,
+                "lastSeen": "2025-08-13T18:15:41.048Z"
+            },
+            "unreadCount": 0
+        },
+        {
+            "isSecure": false,
+            "conversationId": "687da603261d1437c77de522",
+            "lastMessage": {
+                "_id": "687da608261d1437c77de54a",
+                "conversationId": "687da603261d1437c77de522",
+                "senderId": "6865eab47809c71b144139bd",
+                "receiverId": "687d99d4261d1437c77d3e77",
+                "messageType": "text",
+                "content": {
+                    "body": "👌👌"
+                },
+                "isRead": true,
+                "isDeleted": false,
+                "createdAt": "2025-07-21T02:29:28.546Z",
+                "updatedAt": "2025-07-21T02:30:28.139Z",
+                "__v": 0,
+                "id": "687da608261d1437c77de54a"
+            },
+            "user": {
+                "specialId": {
+                    "activeSpecialId": null,
+                    "url": "77741141",
+                    "expirationDate": "2025-07-28T03:01:19.072Z"
+                },
+                "_id": "687d99d4261d1437c77d3e77",
+                "name": "عسليه🍾",
+                "userId": "43950843",
+                "avatar": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/7064ef2e-822d-4eaf-adb6-dc18d6a191df-.jpg",
+                "isOnline": false,
+                "lastSeen": "2025-07-21T04:07:18.009Z"
+            },
+            "unreadCount": 0
+        },
+        {
+            "isSecure": false,
+            "conversationId": "687d652927e2526fd818892a",
+            "lastMessage": {
+                "_id": "687da465261d1437c77dcd9a",
+                "conversationId": "687d652927e2526fd818892a",
+                "senderId": "6865eab47809c71b144139bd",
+                "receiverId": "687d2e31902d5b1253ed7b63",
+                "messageType": "gift",
+                "content": {
+                    "body": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/6861b63482476dce0e4cf4ca/1 (15).svga",
+                    "giftId": "6861b63482476dce0e4cf4ca",
+                    "amount": 1
+                },
+                "isRead": true,
+                "isDeleted": false,
+                "createdAt": "2025-07-21T02:22:29.442Z",
+                "updatedAt": "2025-07-21T02:22:34.449Z",
+                "__v": 0,
+                "id": "687da465261d1437c77dcd9a"
+            },
+            "user": {
+                "specialId": {
+                    "activeSpecialId": null,
+                    "url": "",
+                    "expirationDate": "2025-07-27T22:00:00.377Z"
+                },
+                "_id": "687d2e31902d5b1253ed7b63",
+                "name": "αყα",
+                "userId": "70128938",
+                "avatar": "https://sawa-sawa.s3.eu-north-1.amazonaws.com/4c7d0367-38df-48c1-81ec-8b02a6da9b40-.jpg",
+                "isOnline": false,
+                "lastSeen": "2025-07-30T17:01:14.271Z"
+            },
+            "unreadCount": 1
+        }
+    ],
+    "total": 253,
+    "totalPages": 13,
+    "page": 12,
+    "limit": 20,
+    "nextPage": 13
+}

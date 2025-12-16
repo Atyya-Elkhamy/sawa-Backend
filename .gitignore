@@ -1,0 +1,34 @@
+# Dependencies
+node_modules
+
+# yarn error logs
+yarn-error.log
+
+# Environment varibales
+.env*
+!.env*.example
+
+# Code coverage
+coverage
+.env
+#  uploads
+uploads
+# and any file in the uploads directory
+uploads/*
+./uploads/*
+/uploads/*
+/uploads/*/*
+/uploads/*/*/*
+/uploads/avatars/*
+# make file uploads directory ignored
+uploads/*
+!uploads/.gitkeep
+/uploads/avatars/*
+
+
+.vercel
+
+database-backup
+.gdrive_oauth_tokens.json
+credintials.json
+backups/*.gz

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"owner":{"$numberInt":"1"}},"name":"owner_1","background":true,"unique":true}],"uuid":"6b4c601a6bfe43dd8d896ed97d5bc013","collectionName":"rooms","type":"collection"}

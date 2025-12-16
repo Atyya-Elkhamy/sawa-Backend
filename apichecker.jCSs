@@ -1,0 +1,48 @@
+const axios = require('axios');
+
+// List of API keys
+const apiKeys = [
+  'AIzaSyBF-plh38rxHwPqls1YrPid6sYbRqtW5Ko',
+  'AIzaSyD2IhUOZZ5-1sg93HN5yviFmS3FFZP5Mug',
+  'AIzaSyC7L9dsQYVutcvIaD_ArZw7IaMtJWjrXAo',
+  'AIzaSyD-3Wkg2QiAyUKiO_jLtU7m5P_VW44ocAM',
+  'AIzaSyA0GAjF5MzOO_POlglZkf2Uxjlfew79SPM',
+  'AIzaSyAd3C10dUQ27tE2zkyoSS9tHoD8_PEVea8',
+  'AIzaSyD6yHZLGuy5vdAwqxupTXBW4XCj66k1RUg',
+  'AIzaSyBu5O6uuksgViU22Mpk01ix5CE5dlnCTxI',
+  'AIzaSyAnlniUEgnxfnYQBRKmDO_M2gpkFPEBuEQ',
+  'AIzaSyCLD_DE0ZDAeRa7USpjFMKy68OGSjNNAdw',
+  'AIzaSyDhBoyEFDMf1aBaJhEoQGTecs6hCgdEGtQ',
+  'AIzaSyCjAHx9FaLqJbR5iHAtwTcJSEfPctGYp0E',
+  'AIzaSyACBqutTmLAPnmbLEdg3yk5ptuROpTJ_iE',
+];
+
+// Video ID to fetch stats for
+const videoId = 'kMx7ceJ35mE';
+
+// Function to check each API key
+async function checkApiKey(apiKey) {
+  const url = `https://www.googleapis.com/youtube/v3/videos?id=${videoId}&part=statistics&key=${apiKey}`;
+
+  try {
+    const response = await axios.get(url);
+    if (response.status === 200 && response.data.items.length > 0) {
+      const statistics = response.data.items[0].statistics;
+      console.log(`API Key: ${apiKey} - Success`);
+      console.log(`View Count: ${statistics.viewCount}`);
+    } else {
+      console.log(`API Key: ${apiKey} - Failed (No data returned)`);
+    }
+  } catch (error) {
+    console.log(`API Key: ${apiKey} - Failed (Error: ${error.message})`);
+  }
+}
+
+// Check all API keys
+async function checkAllKeys() {
+  for (const apiKey of apiKeys) {
+    await checkApiKey(apiKey);
+  }
+}
+
+checkAllKeys();

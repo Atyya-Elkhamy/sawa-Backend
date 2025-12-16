@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"blockedAt":{"$numberInt":"1"}},"name":"blockedAt_1","background":true,"expireAfterSeconds":{"$numberInt":"3600"}}],"uuid":"f9b4f248d7434557a862274cabd51156","collectionName":"roomblocks","type":"collection"}

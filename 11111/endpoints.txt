@@ -1,0 +1,82 @@
+
+/// rooms
+
+
+    rooms/:id/home/
+    {
+        members_count
+        contributions
+        country
+        top_mic:boolean
+        // mics:[
+        //     {
+        //         id
+        //         name
+        //         avatar
+        //         frame
+        //         level
+        //         charge_level
+        //         carizma
+        //         age}
+        // ]
+        }
+        boss_mic:{
+            bought : boolean
+            enabled : boolean
+        }
+        king_mic:{
+            bought : boolean
+            enabled : boolean
+        }
+        vip_mic:{
+            bought : boolean
+            enabled : boolean
+        }
+        room_bg
+    }
+/rooms/:id/ranking/rich/:enum(1,2):[1:daily,2:weekly]
+    {
+        [
+            {
+                image
+                name
+                id
+                carizma/contribution
+            }
+        ]//contributed  on room
+        my_contribution:number //on room that day/week
+        total_contributions:number //on room that day/week
+    }
+    /rooms/:id/ranking/fame/:enum(1,2):[1:daily,2:weekly]
+    {
+        [
+            {
+                image
+                name
+                id
+                carizma/contribution
+            }
+        ]//contributed  on room
+        my_fame:number //on room that day/week
+        total_fame:number //on room that day/week
+    }
+
+    get /groups/:id/profits/
+    {
+        total_profits
+    }
+    /groups/:id/profits/history/enum(7,6,5,4,3,2,1)
+    {
+        profits:[
+            {
+                amount
+                user:{
+                    id
+                    name
+                    avatar
+                    frame
+                }
+                credits:number
+            }
+        ]
+    }

@@ -1,0 +1,2226 @@
+{
+  "metadata": {
+    "maxLevel": 200,
+    "minLevel": 0,
+    "totalLevels": 201,
+    "generatedAt": "2025-08-29T00:52:34.871Z",
+    "version": "1.0.0"
+  },
+  "levels": [
+    {
+      "level": 0,
+      "minimumAmount": 0,
+      "nextLevelAmount": 7000,
+      "difference": 7000
+    },
+    {
+      "level": 1,
+      "minimumAmount": 7000,
+      "nextLevelAmount": 33264,
+      "difference": 26264
+    },
+    {
+      "level": 2,
+      "minimumAmount": 33264,
+      "nextLevelAmount": 59528,
+      "difference": 26264
+    },
+    {
+      "level": 3,
+      "minimumAmount": 59528,
+      "nextLevelAmount": 85792,
+      "difference": 26264
+    },
+    {
+      "level": 4,
+      "minimumAmount": 85792,
+      "nextLevelAmount": 112056,
+      "difference": 26264
+    },
+    {
+      "level": 5,
+      "minimumAmount": 112056,
+      "nextLevelAmount": 138320,
+      "difference": 26264
+    },
+    {
+      "level": 6,
+      "minimumAmount": 138320,
+      "nextLevelAmount": 164584,
+      "difference": 26264
+    },
+    {
+      "level": 7,
+      "minimumAmount": 164584,
+      "nextLevelAmount": 190848,
+      "difference": 26264
+    },
+    {
+      "level": 8,
+      "minimumAmount": 190848,
+      "nextLevelAmount": 217112,
+      "difference": 26264
+    },
+    {
+      "level": 9,
+      "minimumAmount": 217112,
+      "nextLevelAmount": 243376,
+      "difference": 26264
+    },
+    {
+      "level": 10,
+      "minimumAmount": 243376,
+      "nextLevelAmount": 269640,
+      "difference": 26264
+    },
+    {
+      "level": 11,
+      "minimumAmount": 269640,
+      "nextLevelAmount": 295904,
+      "difference": 26264
+    },
+    {
+      "level": 12,
+      "minimumAmount": 295904,
+      "nextLevelAmount": 322168,
+      "difference": 26264
+    },
+    {
+      "level": 13,
+      "minimumAmount": 322168,
+      "nextLevelAmount": 348432,
+      "difference": 26264
+    },
+    {
+      "level": 14,
+      "minimumAmount": 348432,
+      "nextLevelAmount": 374696,
+      "difference": 26264
+    },
+    {
+      "level": 15,
+      "minimumAmount": 374696,
+      "nextLevelAmount": 400960,
+      "difference": 26264
+    },
+    {
+      "level": 16,
+      "minimumAmount": 400960,
+      "nextLevelAmount": 427224,
+      "difference": 26264
+    },
+    {
+      "level": 17,
+      "minimumAmount": 427224,
+      "nextLevelAmount": 453488,
+      "difference": 26264
+    },
+    {
+      "level": 18,
+      "minimumAmount": 453488,
+      "nextLevelAmount": 479752,
+      "difference": 26264
+    },
+    {
+      "level": 19,
+      "minimumAmount": 479752,
+      "nextLevelAmount": 506016,
+      "difference": 26264
+    },
+    {
+      "level": 20,
+      "minimumAmount": 506016,
+      "nextLevelAmount": 1483349,
+      "difference": 983333
+    },
+    {
+      "level": 21,
+      "minimumAmount": 1483349,
+      "nextLevelAmount": 2466682,
+      "difference": 983333
+    },
+    {
+      "level": 22,
+      "minimumAmount": 2466682,
+      "nextLevelAmount": 3450015,
+      "difference": 983333
+    },
+    {
+      "level": 23,
+      "minimumAmount": 3450015,
+      "nextLevelAmount": 4433348,
+      "difference": 983333
+    },
+    {
+      "level": 24,
+      "minimumAmount": 4433348,
+      "nextLevelAmount": 5416681,
+      "difference": 983333
+    },
+    {
+      "level": 25,
+      "minimumAmount": 5416681,
+      "nextLevelAmount": 6400014,
+      "difference": 983333
+    },
+    {
+      "level": 26,
+      "minimumAmount": 6400014,
+      "nextLevelAmount": 7383347,
+      "difference": 983333
+    },
+    {
+      "level": 27,
+      "minimumAmount": 7383347,
+      "nextLevelAmount": 8366680,
+      "difference": 983333
+    },
+    {
+      "level": 28,
+      "minimumAmount": 8366680,
+      "nextLevelAmount": 9350013,
+      "difference": 983333
+    },
+    {
+      "level": 29,
+      "minimumAmount": 9350013,
+      "nextLevelAmount": 10333346,
+      "difference": 983333
+    },
+    {
+      "level": 30,
+      "minimumAmount": 10333346,
+      "nextLevelAmount": 11316679,
+      "difference": 983333
+    },
+    {
+      "level": 31,
+      "minimumAmount": 11316679,
+      "nextLevelAmount": 12300012,
+      "difference": 983333
+    },
+    {
+      "level": 32,
+      "minimumAmount": 12300012,
+      "nextLevelAmount": 13283345,
+      "difference": 983333
+    },
+    {
+      "level": 33,
+      "minimumAmount": 13283345,
+      "nextLevelAmount": 14266678,
+      "difference": 983333
+    },
+    {
+      "level": 34,
+      "minimumAmount": 14266678,
+      "nextLevelAmount": 15250011,
+      "difference": 983333
+    },
+    {
+      "level": 35,
+      "minimumAmount": 15250011,
+      "nextLevelAmount": 16233344,
+      "difference": 983333
+    },
+    {
+      "level": 36,
+      "minimumAmount": 16233344,
+      "nextLevelAmount": 17216677,
+      "difference": 983333
+    },
+    {
+      "level": 37,
+      "minimumAmount": 17216677,
+      "nextLevelAmount": 18200010,
+      "difference": 983333
+    },
+    {
+      "level": 38,
+      "minimumAmount": 18200010,
+      "nextLevelAmount": 19183343,
+      "difference": 983333
+    },
+    {
+      "level": 39,
+      "minimumAmount": 19183343,
+      "nextLevelAmount": 20166676,
+      "difference": 983333
+    },
+    {
+      "level": 40,
+      "minimumAmount": 20166676,
+      "nextLevelAmount": 21150009,
+      "difference": 983333
+    },
+    {
+      "level": 41,
+      "minimumAmount": 21150009,
+      "nextLevelAmount": 22133342,
+      "difference": 983333
+    },
+    {
+      "level": 42,
+      "minimumAmount": 22133342,
+      "nextLevelAmount": 23116675,
+      "difference": 983333
+    },
+    {
+      "level": 43,
+      "minimumAmount": 23116675,
+      "nextLevelAmount": 24100008,
+      "difference": 983333
+    },
+    {
+      "level": 44,
+      "minimumAmount": 24100008,
+      "nextLevelAmount": 25083341,
+      "difference": 983333
+    },
+    {
+      "level": 45,
+      "minimumAmount": 25083341,
+      "nextLevelAmount": 26066674,
+      "difference": 983333
+    },
+    {
+      "level": 46,
+      "minimumAmount": 26066674,
+      "nextLevelAmount": 27050007,
+      "difference": 983333
+    },
+    {
+      "level": 47,
+      "minimumAmount": 27050007,
+      "nextLevelAmount": 28033340,
+      "difference": 983333
+    },
+    {
+      "level": 48,
+      "minimumAmount": 28033340,
+      "nextLevelAmount": 29016673,
+      "difference": 983333
+    },
+    {
+      "level": 49,
+      "minimumAmount": 29016673,
+      "nextLevelAmount": 30000006,
+      "difference": 983333
+    },
+    {
+      "level": 50,
+      "minimumAmount": 30000006,
+      "nextLevelAmount": 31600006,
+      "difference": 1600000
+    },
+    {
+      "level": 51,
+      "minimumAmount": 31600006,
+      "nextLevelAmount": 33200006,
+      "difference": 1600000
+    },
+    {
+      "level": 52,
+      "minimumAmount": 33200006,
+      "nextLevelAmount": 34800006,
+      "difference": 1600000
+    },
+    {
+      "level": 53,
+      "minimumAmount": 34800006,
+      "nextLevelAmount": 36400006,
+      "difference": 1600000
+    },
+    {
+      "level": 54,
+      "minimumAmount": 36400006,
+      "nextLevelAmount": 38000006,
+      "difference": 1600000
+    },
+    {
+      "level": 55,
+      "minimumAmount": 38000006,
+      "nextLevelAmount": 39600006,
+      "difference": 1600000
+    },
+    {
+      "level": 56,
+      "minimumAmount": 39600006,
+      "nextLevelAmount": 41200006,
+      "difference": 1600000
+    },
+    {
+      "level": 57,
+      "minimumAmount": 41200006,
+      "nextLevelAmount": 42800006,
+      "difference": 1600000
+    },
+    {
+      "level": 58,
+      "minimumAmount": 42800006,
+      "nextLevelAmount": 44400006,
+      "difference": 1600000
+    },
+    {
+      "level": 59,
+      "minimumAmount": 44400006,
+      "nextLevelAmount": 46000006,
+      "difference": 1600000
+    },
+    {
+      "level": 60,
+      "minimumAmount": 46000006,
+      "nextLevelAmount": 47600006,
+      "difference": 1600000
+    },
+    {
+      "level": 61,
+      "minimumAmount": 47600006,
+      "nextLevelAmount": 49200006,
+      "difference": 1600000
+    },
+    {
+      "level": 62,
+      "minimumAmount": 49200006,
+      "nextLevelAmount": 50800006,
+      "difference": 1600000
+    },
+    {
+      "level": 63,
+      "minimumAmount": 50800006,
+      "nextLevelAmount": 52400006,
+      "difference": 1600000
+    },
+    {
+      "level": 64,
+      "minimumAmount": 52400006,
+      "nextLevelAmount": 54000006,
+      "difference": 1600000
+    },
+    {
+      "level": 65,
+      "minimumAmount": 54000006,
+      "nextLevelAmount": 55600006,
+      "difference": 1600000
+    },
+    {
+      "level": 66,
+      "minimumAmount": 55600006,
+      "nextLevelAmount": 57200006,
+      "difference": 1600000
+    },
+    {
+      "level": 67,
+      "minimumAmount": 57200006,
+      "nextLevelAmount": 58800006,
+      "difference": 1600000
+    },
+    {
+      "level": 68,
+      "minimumAmount": 58800006,
+      "nextLevelAmount": 60400006,
+      "difference": 1600000
+    },
+    {
+      "level": 69,
+      "minimumAmount": 60400006,
+      "nextLevelAmount": 62000006,
+      "difference": 1600000
+    },
+    {
+      "level": 70,
+      "minimumAmount": 62000006,
+      "nextLevelAmount": 63600006,
+      "difference": 1600000
+    },
+    {
+      "level": 71,
+      "minimumAmount": 63600006,
+      "nextLevelAmount": 65200006,
+      "difference": 1600000
+    },
+    {
+      "level": 72,
+      "minimumAmount": 65200006,
+      "nextLevelAmount": 66800006,
+      "difference": 1600000
+    },
+    {
+      "level": 73,
+      "minimumAmount": 66800006,
+      "nextLevelAmount": 68400006,
+      "difference": 1600000
+    },
+    {
+      "level": 74,
+      "minimumAmount": 68400006,
+      "nextLevelAmount": 70000006,
+      "difference": 1600000
+    },
+    {
+      "level": 75,
+      "minimumAmount": 70000006,
+      "nextLevelAmount": 72400006,
+      "difference": 2400000
+    },
+    {
+      "level": 76,
+      "minimumAmount": 72400006,
+      "nextLevelAmount": 74800006,
+      "difference": 2400000
+    },
+    {
+      "level": 77,
+      "minimumAmount": 74800006,
+      "nextLevelAmount": 77200006,
+      "difference": 2400000
+    },
+    {
+      "level": 78,
+      "minimumAmount": 77200006,
+      "nextLevelAmount": 79600006,
+      "difference": 2400000
+    },
+    {
+      "level": 79,
+      "minimumAmount": 79600006,
+      "nextLevelAmount": 82000006,
+      "difference": 2400000
+    },
+    {
+      "level": 80,
+      "minimumAmount": 82000006,
+      "nextLevelAmount": 84400006,
+      "difference": 2400000
+    },
+    {
+      "level": 81,
+      "minimumAmount": 84400006,
+      "nextLevelAmount": 86800006,
+      "difference": 2400000
+    },
+    {
+      "level": 82,
+      "minimumAmount": 86800006,
+      "nextLevelAmount": 89200006,
+      "difference": 2400000
+    },
+    {
+      "level": 83,
+      "minimumAmount": 89200006,
+      "nextLevelAmount": 91600006,
+      "difference": 2400000
+    },
+    {
+      "level": 84,
+      "minimumAmount": 91600006,
+      "nextLevelAmount": 94000006,
+      "difference": 2400000
+    },
+    {
+      "level": 85,
+      "minimumAmount": 94000006,
+      "nextLevelAmount": 96400006,
+      "difference": 2400000
+    },
+    {
+      "level": 86,
+      "minimumAmount": 96400006,
+      "nextLevelAmount": 98800006,
+      "difference": 2400000
+    },
+    {
+      "level": 87,
+      "minimumAmount": 98800006,
+      "nextLevelAmount": 101200006,
+      "difference": 2400000
+    },
+    {
+      "level": 88,
+      "minimumAmount": 101200006,
+      "nextLevelAmount": 103600006,
+      "difference": 2400000
+    },
+    {
+      "level": 89,
+      "minimumAmount": 103600006,
+      "nextLevelAmount": 106000006,
+      "difference": 2400000
+    },
+    {
+      "level": 90,
+      "minimumAmount": 106000006,
+      "nextLevelAmount": 108400006,
+      "difference": 2400000
+    },
+    {
+      "level": 91,
+      "minimumAmount": 108400006,
+      "nextLevelAmount": 110800006,
+      "difference": 2400000
+    },
+    {
+      "level": 92,
+      "minimumAmount": 110800006,
+      "nextLevelAmount": 113200006,
+      "difference": 2400000
+    },
+    {
+      "level": 93,
+      "minimumAmount": 113200006,
+      "nextLevelAmount": 115600006,
+      "difference": 2400000
+    },
+    {
+      "level": 94,
+      "minimumAmount": 115600006,
+      "nextLevelAmount": 118000006,
+      "difference": 2400000
+    },
+    {
+      "level": 95,
+      "minimumAmount": 118000006,
+      "nextLevelAmount": 120400006,
+      "difference": 2400000
+    },
+    {
+      "level": 96,
+      "minimumAmount": 120400006,
+      "nextLevelAmount": 122800006,
+      "difference": 2400000
+    },
+    {
+      "level": 97,
+      "minimumAmount": 122800006,
+      "nextLevelAmount": 125200006,
+      "difference": 2400000
+    },
+    {
+      "level": 98,
+      "minimumAmount": 125200006,
+      "nextLevelAmount": 127600006,
+      "difference": 2400000
+    },
+    {
+      "level": 99,
+      "minimumAmount": 127600006,
+      "nextLevelAmount": 130000006,
+      "difference": 2400000
+    },
+    {
+      "level": 100,
+      "minimumAmount": 130000006,
+      "nextLevelAmount": 132400006,
+      "difference": 2400000
+    },
+    {
+      "level": 101,
+      "minimumAmount": 132400006,
+      "nextLevelAmount": 134800006,
+      "difference": 2400000
+    },
+    {
+      "level": 102,
+      "minimumAmount": 134800006,
+      "nextLevelAmount": 137200006,
+      "difference": 2400000
+    },
+    {
+      "level": 103,
+      "minimumAmount": 137200006,
+      "nextLevelAmount": 139600006,
+      "difference": 2400000
+    },
+    {
+      "level": 104,
+      "minimumAmount": 139600006,
+      "nextLevelAmount": 142000006,
+      "difference": 2400000
+    },
+    {
+      "level": 105,
+      "minimumAmount": 142000006,
+      "nextLevelAmount": 144400006,
+      "difference": 2400000
+    },
+    {
+      "level": 106,
+      "minimumAmount": 144400006,
+      "nextLevelAmount": 146800006,
+      "difference": 2400000
+    },
+    {
+      "level": 107,
+      "minimumAmount": 146800006,
+      "nextLevelAmount": 149200006,
+      "difference": 2400000
+    },
+    {
+      "level": 108,
+      "minimumAmount": 149200006,
+      "nextLevelAmount": 151600006,
+      "difference": 2400000
+    },
+    {
+      "level": 109,
+      "minimumAmount": 151600006,
+      "nextLevelAmount": 154000006,
+      "difference": 2400000
+    },
+    {
+      "level": 110,
+      "minimumAmount": 154000006,
+      "nextLevelAmount": 156400006,
+      "difference": 2400000
+    },
+    {
+      "level": 111,
+      "minimumAmount": 156400006,
+      "nextLevelAmount": 158800006,
+      "difference": 2400000
+    },
+    {
+      "level": 112,
+      "minimumAmount": 158800006,
+      "nextLevelAmount": 161200006,
+      "difference": 2400000
+    },
+    {
+      "level": 113,
+      "minimumAmount": 161200006,
+      "nextLevelAmount": 163600006,
+      "difference": 2400000
+    },
+    {
+      "level": 114,
+      "minimumAmount": 163600006,
+      "nextLevelAmount": 166000006,
+      "difference": 2400000
+    },
+    {
+      "level": 115,
+      "minimumAmount": 166000006,
+      "nextLevelAmount": 168400006,
+      "difference": 2400000
+    },
+    {
+      "level": 116,
+      "minimumAmount": 168400006,
+      "nextLevelAmount": 170800006,
+      "difference": 2400000
+    },
+    {
+      "level": 117,
+      "minimumAmount": 170800006,
+      "nextLevelAmount": 173200006,
+      "difference": 2400000
+    },
+    {
+      "level": 118,
+      "minimumAmount": 173200006,
+      "nextLevelAmount": 175600006,
+      "difference": 2400000
+    },
+    {
+      "level": 119,
+      "minimumAmount": 175600006,
+      "nextLevelAmount": 178000006,
+      "difference": 2400000
+    },
+    {
+      "level": 120,
+      "minimumAmount": 178000006,
+      "nextLevelAmount": 180400006,
+      "difference": 2400000
+    },
+    {
+      "level": 121,
+      "minimumAmount": 180400006,
+      "nextLevelAmount": 182800006,
+      "difference": 2400000
+    },
+    {
+      "level": 122,
+      "minimumAmount": 182800006,
+      "nextLevelAmount": 185200006,
+      "difference": 2400000
+    },
+    {
+      "level": 123,
+      "minimumAmount": 185200006,
+      "nextLevelAmount": 187600006,
+      "difference": 2400000
+    },
+    {
+      "level": 124,
+      "minimumAmount": 187600006,
+      "nextLevelAmount": 190000006,
+      "difference": 2400000
+    },
+    {
+      "level": 125,
+      "minimumAmount": 190000006,
+      "nextLevelAmount": 192400006,
+      "difference": 2400000
+    },
+    {
+      "level": 126,
+      "minimumAmount": 192400006,
+      "nextLevelAmount": 194800006,
+      "difference": 2400000
+    },
+    {
+      "level": 127,
+      "minimumAmount": 194800006,
+      "nextLevelAmount": 197200006,
+      "difference": 2400000
+    },
+    {
+      "level": 128,
+      "minimumAmount": 197200006,
+      "nextLevelAmount": 199600006,
+      "difference": 2400000
+    },
+    {
+      "level": 129,
+      "minimumAmount": 199600006,
+      "nextLevelAmount": 202000006,
+      "difference": 2400000
+    },
+    {
+      "level": 130,
+      "minimumAmount": 202000006,
+      "nextLevelAmount": 204400006,
+      "difference": 2400000
+    },
+    {
+      "level": 131,
+      "minimumAmount": 204400006,
+      "nextLevelAmount": 206800006,
+      "difference": 2400000
+    },
+    {
+      "level": 132,
+      "minimumAmount": 206800006,
+      "nextLevelAmount": 209200006,
+      "difference": 2400000
+    },
+    {
+      "level": 133,
+      "minimumAmount": 209200006,
+      "nextLevelAmount": 211600006,
+      "difference": 2400000
+    },
+    {
+      "level": 134,
+      "minimumAmount": 211600006,
+      "nextLevelAmount": 214000006,
+      "difference": 2400000
+    },
+    {
+      "level": 135,
+      "minimumAmount": 214000006,
+      "nextLevelAmount": 216400006,
+      "difference": 2400000
+    },
+    {
+      "level": 136,
+      "minimumAmount": 216400006,
+      "nextLevelAmount": 218800006,
+      "difference": 2400000
+    },
+    {
+      "level": 137,
+      "minimumAmount": 218800006,
+      "nextLevelAmount": 221200006,
+      "difference": 2400000
+    },
+    {
+      "level": 138,
+      "minimumAmount": 221200006,
+      "nextLevelAmount": 223600006,
+      "difference": 2400000
+    },
+    {
+      "level": 139,
+      "minimumAmount": 223600006,
+      "nextLevelAmount": 226000006,
+      "difference": 2400000
+    },
+    {
+      "level": 140,
+      "minimumAmount": 226000006,
+      "nextLevelAmount": 228400006,
+      "difference": 2400000
+    },
+    {
+      "level": 141,
+      "minimumAmount": 228400006,
+      "nextLevelAmount": 230800006,
+      "difference": 2400000
+    },
+    {
+      "level": 142,
+      "minimumAmount": 230800006,
+      "nextLevelAmount": 233200006,
+      "difference": 2400000
+    },
+    {
+      "level": 143,
+      "minimumAmount": 233200006,
+      "nextLevelAmount": 235600006,
+      "difference": 2400000
+    },
+    {
+      "level": 144,
+      "minimumAmount": 235600006,
+      "nextLevelAmount": 238000006,
+      "difference": 2400000
+    },
+    {
+      "level": 145,
+      "minimumAmount": 238000006,
+      "nextLevelAmount": 240400006,
+      "difference": 2400000
+    },
+    {
+      "level": 146,
+      "minimumAmount": 240400006,
+      "nextLevelAmount": 242800006,
+      "difference": 2400000
+    },
+    {
+      "level": 147,
+      "minimumAmount": 242800006,
+      "nextLevelAmount": 245200006,
+      "difference": 2400000
+    },
+    {
+      "level": 148,
+      "minimumAmount": 245200006,
+      "nextLevelAmount": 247600006,
+      "difference": 2400000
+    },
+    {
+      "level": 149,
+      "minimumAmount": 247600006,
+      "nextLevelAmount": 250000006,
+      "difference": 2400000
+    },
+    {
+      "level": 150,
+      "minimumAmount": 250000006,
+      "nextLevelAmount": 252400006,
+      "difference": 2400000
+    },
+    {
+      "level": 151,
+      "minimumAmount": 252400006,
+      "nextLevelAmount": 254800006,
+      "difference": 2400000
+    },
+    {
+      "level": 152,
+      "minimumAmount": 254800006,
+      "nextLevelAmount": 257200006,
+      "difference": 2400000
+    },
+    {
+      "level": 153,
+      "minimumAmount": 257200006,
+      "nextLevelAmount": 259600006,
+      "difference": 2400000
+    },
+    {
+      "level": 154,
+      "minimumAmount": 259600006,
+      "nextLevelAmount": 262000006,
+      "difference": 2400000
+    },
+    {
+      "level": 155,
+      "minimumAmount": 262000006,
+      "nextLevelAmount": 264400006,
+      "difference": 2400000
+    },
+    {
+      "level": 156,
+      "minimumAmount": 264400006,
+      "nextLevelAmount": 266800006,
+      "difference": 2400000
+    },
+    {
+      "level": 157,
+      "minimumAmount": 266800006,
+      "nextLevelAmount": 269200006,
+      "difference": 2400000
+    },
+    {
+      "level": 158,
+      "minimumAmount": 269200006,
+      "nextLevelAmount": 271600006,
+      "difference": 2400000
+    },
+    {
+      "level": 159,
+      "minimumAmount": 271600006,
+      "nextLevelAmount": 274000006,
+      "difference": 2400000
+    },
+    {
+      "level": 160,
+      "minimumAmount": 274000006,
+      "nextLevelAmount": 276400006,
+      "difference": 2400000
+    },
+    {
+      "level": 161,
+      "minimumAmount": 276400006,
+      "nextLevelAmount": 278800006,
+      "difference": 2400000
+    },
+    {
+      "level": 162,
+      "minimumAmount": 278800006,
+      "nextLevelAmount": 281200006,
+      "difference": 2400000
+    },
+    {
+      "level": 163,
+      "minimumAmount": 281200006,
+      "nextLevelAmount": 283600006,
+      "difference": 2400000
+    },
+    {
+      "level": 164,
+      "minimumAmount": 283600006,
+      "nextLevelAmount": 286000006,
+      "difference": 2400000
+    },
+    {
+      "level": 165,
+      "minimumAmount": 286000006,
+      "nextLevelAmount": 288400006,
+      "difference": 2400000
+    },
+    {
+      "level": 166,
+      "minimumAmount": 288400006,
+      "nextLevelAmount": 290800006,
+      "difference": 2400000
+    },
+    {
+      "level": 167,
+      "minimumAmount": 290800006,
+      "nextLevelAmount": 293200006,
+      "difference": 2400000
+    },
+    {
+      "level": 168,
+      "minimumAmount": 293200006,
+      "nextLevelAmount": 295600006,
+      "difference": 2400000
+    },
+    {
+      "level": 169,
+      "minimumAmount": 295600006,
+      "nextLevelAmount": 298000006,
+      "difference": 2400000
+    },
+    {
+      "level": 170,
+      "minimumAmount": 298000006,
+      "nextLevelAmount": 300400006,
+      "difference": 2400000
+    },
+    {
+      "level": 171,
+      "minimumAmount": 300400006,
+      "nextLevelAmount": 302800006,
+      "difference": 2400000
+    },
+    {
+      "level": 172,
+      "minimumAmount": 302800006,
+      "nextLevelAmount": 305200006,
+      "difference": 2400000
+    },
+    {
+      "level": 173,
+      "minimumAmount": 305200006,
+      "nextLevelAmount": 307600006,
+      "difference": 2400000
+    },
+    {
+      "level": 174,
+      "minimumAmount": 307600006,
+      "nextLevelAmount": 310000006,
+      "difference": 2400000
+    },
+    {
+      "level": 175,
+      "minimumAmount": 310000006,
+      "nextLevelAmount": 312400006,
+      "difference": 2400000
+    },
+    {
+      "level": 176,
+      "minimumAmount": 312400006,
+      "nextLevelAmount": 314800006,
+      "difference": 2400000
+    },
+    {
+      "level": 177,
+      "minimumAmount": 314800006,
+      "nextLevelAmount": 317200006,
+      "difference": 2400000
+    },
+    {
+      "level": 178,
+      "minimumAmount": 317200006,
+      "nextLevelAmount": 319600006,
+      "difference": 2400000
+    },
+    {
+      "level": 179,
+      "minimumAmount": 319600006,
+      "nextLevelAmount": 322000006,
+      "difference": 2400000
+    },
+    {
+      "level": 180,
+      "minimumAmount": 322000006,
+      "nextLevelAmount": 324400006,
+      "difference": 2400000
+    },
+    {
+      "level": 181,
+      "minimumAmount": 324400006,
+      "nextLevelAmount": 326800006,
+      "difference": 2400000
+    },
+    {
+      "level": 182,
+      "minimumAmount": 326800006,
+      "nextLevelAmount": 329200006,
+      "difference": 2400000
+    },
+    {
+      "level": 183,
+      "minimumAmount": 329200006,
+      "nextLevelAmount": 331600006,
+      "difference": 2400000
+    },
+    {
+      "level": 184,
+      "minimumAmount": 331600006,
+      "nextLevelAmount": 334000006,
+      "difference": 2400000
+    },
+    {
+      "level": 185,
+      "minimumAmount": 334000006,
+      "nextLevelAmount": 336400006,
+      "difference": 2400000
+    },
+    {
+      "level": 186,
+      "minimumAmount": 336400006,
+      "nextLevelAmount": 338800006,
+      "difference": 2400000
+    },
+    {
+      "level": 187,
+      "minimumAmount": 338800006,
+      "nextLevelAmount": 341200006,
+      "difference": 2400000
+    },
+    {
+      "level": 188,
+      "minimumAmount": 341200006,
+      "nextLevelAmount": 343600006,
+      "difference": 2400000
+    },
+    {
+      "level": 189,
+      "minimumAmount": 343600006,
+      "nextLevelAmount": 346000006,
+      "difference": 2400000
+    },
+    {
+      "level": 190,
+      "minimumAmount": 346000006,
+      "nextLevelAmount": 348400006,
+      "difference": 2400000
+    },
+    {
+      "level": 191,
+      "minimumAmount": 348400006,
+      "nextLevelAmount": 350800006,
+      "difference": 2400000
+    },
+    {
+      "level": 192,
+      "minimumAmount": 350800006,
+      "nextLevelAmount": 353200006,
+      "difference": 2400000
+    },
+    {
+      "level": 193,
+      "minimumAmount": 353200006,
+      "nextLevelAmount": 355600006,
+      "difference": 2400000
+    },
+    {
+      "level": 194,
+      "minimumAmount": 355600006,
+      "nextLevelAmount": 358000006,
+      "difference": 2400000
+    },
+    {
+      "level": 195,
+      "minimumAmount": 358000006,
+      "nextLevelAmount": 360400006,
+      "difference": 2400000
+    },
+    {
+      "level": 196,
+      "minimumAmount": 360400006,
+      "nextLevelAmount": 362800006,
+      "difference": 2400000
+    },
+    {
+      "level": 197,
+      "minimumAmount": 362800006,
+      "nextLevelAmount": 365200006,
+      "difference": 2400000
+    },
+    {
+      "level": 198,
+      "minimumAmount": 365200006,
+      "nextLevelAmount": 367600006,
+      "difference": 2400000
+    },
+    {
+      "level": 199,
+      "minimumAmount": 367600006,
+      "nextLevelAmount": 370000006,
+      "difference": 2400000
+    },
+    {
+      "level": 200,
+      "minimumAmount": 370000006,
+      "nextLevelAmount": 372400006,
+      "difference": 2400000
+    }
+  ],
+  "levelToMinAmount": {
+    "0": 0,
+    "1": 7000,
+    "2": 33264,
+    "3": 59528,
+    "4": 85792,
+    "5": 112056,
+    "6": 138320,
+    "7": 164584,
+    "8": 190848,
+    "9": 217112,
+    "10": 243376,
+    "11": 269640,
+    "12": 295904,
+    "13": 322168,
+    "14": 348432,
+    "15": 374696,
+    "16": 400960,
+    "17": 427224,
+    "18": 453488,
+    "19": 479752,
+    "20": 506016,
+    "21": 1483349,
+    "22": 2466682,
+    "23": 3450015,
+    "24": 4433348,
+    "25": 5416681,
+    "26": 6400014,
+    "27": 7383347,
+    "28": 8366680,
+    "29": 9350013,
+    "30": 10333346,
+    "31": 11316679,
+    "32": 12300012,
+    "33": 13283345,
+    "34": 14266678,
+    "35": 15250011,
+    "36": 16233344,
+    "37": 17216677,
+    "38": 18200010,
+    "39": 19183343,
+    "40": 20166676,
+    "41": 21150009,
+    "42": 22133342,
+    "43": 23116675,
+    "44": 24100008,
+    "45": 25083341,
+    "46": 26066674,
+    "47": 27050007,
+    "48": 28033340,
+    "49": 29016673,
+    "50": 30000006,
+    "51": 31600006,
+    "52": 33200006,
+    "53": 34800006,
+    "54": 36400006,
+    "55": 38000006,
+    "56": 39600006,
+    "57": 41200006,
+    "58": 42800006,
+    "59": 44400006,
+    "60": 46000006,
+    "61": 47600006,
+    "62": 49200006,
+    "63": 50800006,
+    "64": 52400006,
+    "65": 54000006,
+    "66": 55600006,
+    "67": 57200006,
+    "68": 58800006,
+    "69": 60400006,
+    "70": 62000006,
+    "71": 63600006,
+    "72": 65200006,
+    "73": 66800006,
+    "74": 68400006,
+    "75": 70000006,
+    "76": 72400006,
+    "77": 74800006,
+    "78": 77200006,
+    "79": 79600006,
+    "80": 82000006,
+    "81": 84400006,
+    "82": 86800006,
+    "83": 89200006,
+    "84": 91600006,
+    "85": 94000006,
+    "86": 96400006,
+    "87": 98800006,
+    "88": 101200006,
+    "89": 103600006,
+    "90": 106000006,
+    "91": 108400006,
+    "92": 110800006,
+    "93": 113200006,
+    "94": 115600006,
+    "95": 118000006,
+    "96": 120400006,
+    "97": 122800006,
+    "98": 125200006,
+    "99": 127600006,
+    "100": 130000006,
+    "101": 132400006,
+    "102": 134800006,
+    "103": 137200006,
+    "104": 139600006,
+    "105": 142000006,
+    "106": 144400006,
+    "107": 146800006,
+    "108": 149200006,
+    "109": 151600006,
+    "110": 154000006,
+    "111": 156400006,
+    "112": 158800006,
+    "113": 161200006,
+    "114": 163600006,
+    "115": 166000006,
+    "116": 168400006,
+    "117": 170800006,
+    "118": 173200006,
+    "119": 175600006,
+    "120": 178000006,
+    "121": 180400006,
+    "122": 182800006,
+    "123": 185200006,
+    "124": 187600006,
+    "125": 190000006,
+    "126": 192400006,
+    "127": 194800006,
+    "128": 197200006,
+    "129": 199600006,
+    "130": 202000006,
+    "131": 204400006,
+    "132": 206800006,
+    "133": 209200006,
+    "134": 211600006,
+    "135": 214000006,
+    "136": 216400006,
+    "137": 218800006,
+    "138": 221200006,
+    "139": 223600006,
+    "140": 226000006,
+    "141": 228400006,
+    "142": 230800006,
+    "143": 233200006,
+    "144": 235600006,
+    "145": 238000006,
+    "146": 240400006,
+    "147": 242800006,
+    "148": 245200006,
+    "149": 247600006,
+    "150": 250000006,
+    "151": 252400006,
+    "152": 254800006,
+    "153": 257200006,
+    "154": 259600006,
+    "155": 262000006,
+    "156": 264400006,
+    "157": 266800006,
+    "158": 269200006,
+    "159": 271600006,
+    "160": 274000006,
+    "161": 276400006,
+    "162": 278800006,
+    "163": 281200006,
+    "164": 283600006,
+    "165": 286000006,
+    "166": 288400006,
+    "167": 290800006,
+    "168": 293200006,
+    "169": 295600006,
+    "170": 298000006,
+    "171": 300400006,
+    "172": 302800006,
+    "173": 305200006,
+    "174": 307600006,
+    "175": 310000006,
+    "176": 312400006,
+    "177": 314800006,
+    "178": 317200006,
+    "179": 319600006,
+    "180": 322000006,
+    "181": 324400006,
+    "182": 326800006,
+    "183": 329200006,
+    "184": 331600006,
+    "185": 334000006,
+    "186": 336400006,
+    "187": 338800006,
+    "188": 341200006,
+    "189": 343600006,
+    "190": 346000006,
+    "191": 348400006,
+    "192": 350800006,
+    "193": 353200006,
+    "194": 355600006,
+    "195": 358000006,
+    "196": 360400006,
+    "197": 362800006,
+    "198": 365200006,
+    "199": 367600006,
+    "200": 370000006
+  },
+  "amountToLevel": [
+    {
+      "amount": 0,
+      "level": 0
+    },
+    {
+      "amount": 7000,
+      "level": 1
+    },
+    {
+      "amount": 33264,
+      "level": 2
+    },
+    {
+      "amount": 59528,
+      "level": 3
+    },
+    {
+      "amount": 85792,
+      "level": 4
+    },
+    {
+      "amount": 112056,
+      "level": 5
+    },
+    {
+      "amount": 138320,
+      "level": 6
+    },
+    {
+      "amount": 164584,
+      "level": 7
+    },
+    {
+      "amount": 190848,
+      "level": 8
+    },
+    {
+      "amount": 217112,
+      "level": 9
+    },
+    {
+      "amount": 243376,
+      "level": 10
+    },
+    {
+      "amount": 269640,
+      "level": 11
+    },
+    {
+      "amount": 295904,
+      "level": 12
+    },
+    {
+      "amount": 322168,
+      "level": 13
+    },
+    {
+      "amount": 348432,
+      "level": 14
+    },
+    {
+      "amount": 374696,
+      "level": 15
+    },
+    {
+      "amount": 400960,
+      "level": 16
+    },
+    {
+      "amount": 427224,
+      "level": 17
+    },
+    {
+      "amount": 453488,
+      "level": 18
+    },
+    {
+      "amount": 479752,
+      "level": 19
+    },
+    {
+      "amount": 506016,
+      "level": 20
+    },
+    {
+      "amount": 1483349,
+      "level": 21
+    },
+    {
+      "amount": 2466682,
+      "level": 22
+    },
+    {
+      "amount": 3450015,
+      "level": 23
+    },
+    {
+      "amount": 4433348,
+      "level": 24
+    },
+    {
+      "amount": 5416681,
+      "level": 25
+    },
+    {
+      "amount": 6400014,
+      "level": 26
+    },
+    {
+      "amount": 7383347,
+      "level": 27
+    },
+    {
+      "amount": 8366680,
+      "level": 28
+    },
+    {
+      "amount": 9350013,
+      "level": 29
+    },
+    {
+      "amount": 10333346,
+      "level": 30
+    },
+    {
+      "amount": 11316679,
+      "level": 31
+    },
+    {
+      "amount": 12300012,
+      "level": 32
+    },
+    {
+      "amount": 13283345,
+      "level": 33
+    },
+    {
+      "amount": 14266678,
+      "level": 34
+    },
+    {
+      "amount": 15250011,
+      "level": 35
+    },
+    {
+      "amount": 16233344,
+      "level": 36
+    },
+    {
+      "amount": 17216677,
+      "level": 37
+    },
+    {
+      "amount": 18200010,
+      "level": 38
+    },
+    {
+      "amount": 19183343,
+      "level": 39
+    },
+    {
+      "amount": 20166676,
+      "level": 40
+    },
+    {
+      "amount": 21150009,
+      "level": 41
+    },
+    {
+      "amount": 22133342,
+      "level": 42
+    },
+    {
+      "amount": 23116675,
+      "level": 43
+    },
+    {
+      "amount": 24100008,
+      "level": 44
+    },
+    {
+      "amount": 25083341,
+      "level": 45
+    },
+    {
+      "amount": 26066674,
+      "level": 46
+    },
+    {
+      "amount": 27050007,
+      "level": 47
+    },
+    {
+      "amount": 28033340,
+      "level": 48
+    },
+    {
+      "amount": 29016673,
+      "level": 49
+    },
+    {
+      "amount": 30000006,
+      "level": 50
+    },
+    {
+      "amount": 31600006,
+      "level": 51
+    },
+    {
+      "amount": 33200006,
+      "level": 52
+    },
+    {
+      "amount": 34800006,
+      "level": 53
+    },
+    {
+      "amount": 36400006,
+      "level": 54
+    },
+    {
+      "amount": 38000006,
+      "level": 55
+    },
+    {
+      "amount": 39600006,
+      "level": 56
+    },
+    {
+      "amount": 41200006,
+      "level": 57
+    },
+    {
+      "amount": 42800006,
+      "level": 58
+    },
+    {
+      "amount": 44400006,
+      "level": 59
+    },
+    {
+      "amount": 46000006,
+      "level": 60
+    },
+    {
+      "amount": 47600006,
+      "level": 61
+    },
+    {
+      "amount": 49200006,
+      "level": 62
+    },
+    {
+      "amount": 50800006,
+      "level": 63
+    },
+    {
+      "amount": 52400006,
+      "level": 64
+    },
+    {
+      "amount": 54000006,
+      "level": 65
+    },
+    {
+      "amount": 55600006,
+      "level": 66
+    },
+    {
+      "amount": 57200006,
+      "level": 67
+    },
+    {
+      "amount": 58800006,
+      "level": 68
+    },
+    {
+      "amount": 60400006,
+      "level": 69
+    },
+    {
+      "amount": 62000006,
+      "level": 70
+    },
+    {
+      "amount": 63600006,
+      "level": 71
+    },
+    {
+      "amount": 65200006,
+      "level": 72
+    },
+    {
+      "amount": 66800006,
+      "level": 73
+    },
+    {
+      "amount": 68400006,
+      "level": 74
+    },
+    {
+      "amount": 70000006,
+      "level": 75
+    },
+    {
+      "amount": 72400006,
+      "level": 76
+    },
+    {
+      "amount": 74800006,
+      "level": 77
+    },
+    {
+      "amount": 77200006,
+      "level": 78
+    },
+    {
+      "amount": 79600006,
+      "level": 79
+    },
+    {
+      "amount": 82000006,
+      "level": 80
+    },
+    {
+      "amount": 84400006,
+      "level": 81
+    },
+    {
+      "amount": 86800006,
+      "level": 82
+    },
+    {
+      "amount": 89200006,
+      "level": 83
+    },
+    {
+      "amount": 91600006,
+      "level": 84
+    },
+    {
+      "amount": 94000006,
+      "level": 85
+    },
+    {
+      "amount": 96400006,
+      "level": 86
+    },
+    {
+      "amount": 98800006,
+      "level": 87
+    },
+    {
+      "amount": 101200006,
+      "level": 88
+    },
+    {
+      "amount": 103600006,
+      "level": 89
+    },
+    {
+      "amount": 106000006,
+      "level": 90
+    },
+    {
+      "amount": 108400006,
+      "level": 91
+    },
+    {
+      "amount": 110800006,
+      "level": 92
+    },
+    {
+      "amount": 113200006,
+      "level": 93
+    },
+    {
+      "amount": 115600006,
+      "level": 94
+    },
+    {
+      "amount": 118000006,
+      "level": 95
+    },
+    {
+      "amount": 120400006,
+      "level": 96
+    },
+    {
+      "amount": 122800006,
+      "level": 97
+    },
+    {
+      "amount": 125200006,
+      "level": 98
+    },
+    {
+      "amount": 127600006,
+      "level": 99
+    },
+    {
+      "amount": 130000006,
+      "level": 100
+    },
+    {
+      "amount": 132400006,
+      "level": 101
+    },
+    {
+      "amount": 134800006,
+      "level": 102
+    },
+    {
+      "amount": 137200006,
+      "level": 103
+    },
+    {
+      "amount": 139600006,
+      "level": 104
+    },
+    {
+      "amount": 142000006,
+      "level": 105
+    },
+    {
+      "amount": 144400006,
+      "level": 106
+    },
+    {
+      "amount": 146800006,
+      "level": 107
+    },
+    {
+      "amount": 149200006,
+      "level": 108
+    },
+    {
+      "amount": 151600006,
+      "level": 109
+    },
+    {
+      "amount": 154000006,
+      "level": 110
+    },
+    {
+      "amount": 156400006,
+      "level": 111
+    },
+    {
+      "amount": 158800006,
+      "level": 112
+    },
+    {
+      "amount": 161200006,
+      "level": 113
+    },
+    {
+      "amount": 163600006,
+      "level": 114
+    },
+    {
+      "amount": 166000006,
+      "level": 115
+    },
+    {
+      "amount": 168400006,
+      "level": 116
+    },
+    {
+      "amount": 170800006,
+      "level": 117
+    },
+    {
+      "amount": 173200006,
+      "level": 118
+    },
+    {
+      "amount": 175600006,
+      "level": 119
+    },
+    {
+      "amount": 178000006,
+      "level": 120
+    },
+    {
+      "amount": 180400006,
+      "level": 121
+    },
+    {
+      "amount": 182800006,
+      "level": 122
+    },
+    {
+      "amount": 185200006,
+      "level": 123
+    },
+    {
+      "amount": 187600006,
+      "level": 124
+    },
+    {
+      "amount": 190000006,
+      "level": 125
+    },
+    {
+      "amount": 192400006,
+      "level": 126
+    },
+    {
+      "amount": 194800006,
+      "level": 127
+    },
+    {
+      "amount": 197200006,
+      "level": 128
+    },
+    {
+      "amount": 199600006,
+      "level": 129
+    },
+    {
+      "amount": 202000006,
+      "level": 130
+    },
+    {
+      "amount": 204400006,
+      "level": 131
+    },
+    {
+      "amount": 206800006,
+      "level": 132
+    },
+    {
+      "amount": 209200006,
+      "level": 133
+    },
+    {
+      "amount": 211600006,
+      "level": 134
+    },
+    {
+      "amount": 214000006,
+      "level": 135
+    },
+    {
+      "amount": 216400006,
+      "level": 136
+    },
+    {
+      "amount": 218800006,
+      "level": 137
+    },
+    {
+      "amount": 221200006,
+      "level": 138
+    },
+    {
+      "amount": 223600006,
+      "level": 139
+    },
+    {
+      "amount": 226000006,
+      "level": 140
+    },
+    {
+      "amount": 228400006,
+      "level": 141
+    },
+    {
+      "amount": 230800006,
+      "level": 142
+    },
+    {
+      "amount": 233200006,
+      "level": 143
+    },
+    {
+      "amount": 235600006,
+      "level": 144
+    },
+    {
+      "amount": 238000006,
+      "level": 145
+    },
+    {
+      "amount": 240400006,
+      "level": 146
+    },
+    {
+      "amount": 242800006,
+      "level": 147
+    },
+    {
+      "amount": 245200006,
+      "level": 148
+    },
+    {
+      "amount": 247600006,
+      "level": 149
+    },
+    {
+      "amount": 250000006,
+      "level": 150
+    },
+    {
+      "amount": 252400006,
+      "level": 151
+    },
+    {
+      "amount": 254800006,
+      "level": 152
+    },
+    {
+      "amount": 257200006,
+      "level": 153
+    },
+    {
+      "amount": 259600006,
+      "level": 154
+    },
+    {
+      "amount": 262000006,
+      "level": 155
+    },
+    {
+      "amount": 264400006,
+      "level": 156
+    },
+    {
+      "amount": 266800006,
+      "level": 157
+    },
+    {
+      "amount": 269200006,
+      "level": 158
+    },
+    {
+      "amount": 271600006,
+      "level": 159
+    },
+    {
+      "amount": 274000006,
+      "level": 160
+    },
+    {
+      "amount": 276400006,
+      "level": 161
+    },
+    {
+      "amount": 278800006,
+      "level": 162
+    },
+    {
+      "amount": 281200006,
+      "level": 163
+    },
+    {
+      "amount": 283600006,
+      "level": 164
+    },
+    {
+      "amount": 286000006,
+      "level": 165
+    },
+    {
+      "amount": 288400006,
+      "level": 166
+    },
+    {
+      "amount": 290800006,
+      "level": 167
+    },
+    {
+      "amount": 293200006,
+      "level": 168
+    },
+    {
+      "amount": 295600006,
+      "level": 169
+    },
+    {
+      "amount": 298000006,
+      "level": 170
+    },
+    {
+      "amount": 300400006,
+      "level": 171
+    },
+    {
+      "amount": 302800006,
+      "level": 172
+    },
+    {
+      "amount": 305200006,
+      "level": 173
+    },
+    {
+      "amount": 307600006,
+      "level": 174
+    },
+    {
+      "amount": 310000006,
+      "level": 175
+    },
+    {
+      "amount": 312400006,
+      "level": 176
+    },
+    {
+      "amount": 314800006,
+      "level": 177
+    },
+    {
+      "amount": 317200006,
+      "level": 178
+    },
+    {
+      "amount": 319600006,
+      "level": 179
+    },
+    {
+      "amount": 322000006,
+      "level": 180
+    },
+    {
+      "amount": 324400006,
+      "level": 181
+    },
+    {
+      "amount": 326800006,
+      "level": 182
+    },
+    {
+      "amount": 329200006,
+      "level": 183
+    },
+    {
+      "amount": 331600006,
+      "level": 184
+    },
+    {
+      "amount": 334000006,
+      "level": 185
+    },
+    {
+      "amount": 336400006,
+      "level": 186
+    },
+    {
+      "amount": 338800006,
+      "level": 187
+    },
+    {
+      "amount": 341200006,
+      "level": 188
+    },
+    {
+      "amount": 343600006,
+      "level": 189
+    },
+    {
+      "amount": 346000006,
+      "level": 190
+    },
+    {
+      "amount": 348400006,
+      "level": 191
+    },
+    {
+      "amount": 350800006,
+      "level": 192
+    },
+    {
+      "amount": 353200006,
+      "level": 193
+    },
+    {
+      "amount": 355600006,
+      "level": 194
+    },
+    {
+      "amount": 358000006,
+      "level": 195
+    },
+    {
+      "amount": 360400006,
+      "level": 196
+    },
+    {
+      "amount": 362800006,
+      "level": 197
+    },
+    {
+      "amount": 365200006,
+      "level": 198
+    },
+    {
+      "amount": 367600006,
+      "level": 199
+    },
+    {
+      "amount": 370000006,
+      "level": 200
+    }
+  ]
+}

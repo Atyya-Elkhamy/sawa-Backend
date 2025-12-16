@@ -1,0 +1,11 @@
+module.exports.authController = require('./auth.controller');
+module.exports.userController = require('./user.controller');
+module.exports.profileController = require('./profile.controller');
+module.exports.groupController = require('./group.controller');
+module.exports.creditAgencyController = require('./agencies/creditAgency.controller');
+module.exports.storeController = require('./store.controller');
+module.exports.agencyController = require('./agency.controller');
+module.exports.gameController = require('./game.controller');
+module.exports.settingsController = require('./settings.controller');
+module.exports.chatController = require('./chat.controller');
+module.exports.pricingController = require('./pricing.controller');

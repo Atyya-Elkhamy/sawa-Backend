@@ -1,0 +1,1109 @@
+/user/profiles/me
+{
+    avatar
+    frame
+    name
+    id
+    country
+    friends
+    followers
+    following
+    level
+    credits
+    credits_agency:boolean\\true if user is an agency
+    host_agency : boolean\\true if user is a host agency
+    is_host:boolean\\true if user is a host
+}
+/user/profiles/main/:id/friends
+{
+    friends_list: [
+        {
+            id
+            name
+            avatar
+            frame
+            // country
+            followers
+            following
+            level
+            charge_level
+            carizma
+            gender
+            age
+        }
+    ]
+}
+/user/profiles/main/:id/followers
+{
+    followers_list: [
+        {
+            id
+            name
+            avatar
+            frame
+            followers
+            following
+            level
+            charge_level
+            carizma
+            gender
+            age
+        }
+    ]
+}
+
+
+/user/profiles/main/:id/following
+{
+    following_list: [
+        {
+            id
+            name
+            avatar
+            frame
+            followers
+            following
+            level
+            charge_level
+            carizma
+            gender
+            age
+        }
+    ]
+}
+/user/profiles/main/:id/blocked
+{
+    blocked_list: [
+        {
+            id
+            name
+            avatar
+            frame
+            followers
+            following
+            level
+            charge_level
+            carizma
+            gender
+            age
+        }
+    ]
+}
+/user/search/:param
+{
+    search_list: [
+        {
+            id
+            name
+            avatar
+            frame
+            level
+            charge_level
+            carizma
+            gender
+            age
+            in_room // roomID
+        }]
+}
+
+/user/profiles/:id/vip/
+{
+  vip_level
+}
+/user/profiles/:id/pro/
+{
+    expiration_date
+}
+/user/profiles/:id/store/
+{
+    sections:[
+        {
+            name
+            id
+            image
+        }
+
+
+    ]
+    top_products:{
+        category_name:[
+                {
+                    id
+                    image
+                    name
+                    price
+                }
+        ]
+    }
+}
+/user/profiles/:id/store/:section_id/
+{
+    products:[
+        {
+            id
+            image
+            name
+            price
+        }
+    ]
+}
+/user/profiles/:id/my_bag/
+{
+    sections:{
+        secname:{
+            products:[
+                {
+                    id
+                    image
+                    name
+                    price
+                }
+            ]
+        }
+    }
+}
+post /user/profiles/:id/my_bag/select_item/
+{
+    product_id
+}
+// buy item
+post /user/profiles/:id/my_bag/buy_item/
+{
+    product_id
+    user_id
+}
+/user/profiles/:id/credits_agency/
+{
+    name
+    balance
+}
+//credits agency history
+/user/profiles/:id/credits_agency/history/
+{
+    history:[
+        {
+            date
+            amount
+            user:{
+                id
+                name
+                avatar
+                frame
+                level
+                charge_level
+                carizma
+                gender
+                age
+            }
+        }
+    ]
+}
+/user/profiles/:id/settings/all/
+{
+    friends_meesages:boolean
+    system_messages:boolean
+    gifts_from_possible_friends:boolean
+    add_followers:boolean
+}
+post /user/profiles/:id/settings/reset_password/
+{
+    old_password
+    new_password
+}
+post /user/profiles/:id/delete/
+{
+    password
+}
+//contact us
+/contact_us/
+{
+    [
+        {
+            name
+            avatar
+            language:string eg ar en fr
+            available_time:string eg 10:00-12:00
+            countries:[
+                code
+            ]
+            watsapp
+    }
+    ]
+}
+/user/profiles/:id/credits/
+{
+    credits
+    history:[
+        {
+            date
+            amount
+            item
+        }
+    ]
+}
+/user/profiles/:id/charge_level/
+{
+    level
+    next_level_points
+}
+/user/profiles/:id/second/
+{
+    user_data:{
+        avatar
+        frame
+        name
+        id
+        country
+        friends
+        followers
+        charge_level
+        gender
+        age
+        carizma
+        level
+        group_name
+    }
+    charge_level:{
+        level
+        stars:double 0:11
+    }
+    info:{
+        about:string
+        album[]
+        interests[]
+    }
+    gifts:{
+        total_gifts
+        top_gifts:[
+            {
+                image
+            }[0:8]
+        ]
+    }
+    in_room:string // roomID
+}
+
+/user/profiles/:id/gifts/wall/
+{
+    gifts:[
+        {
+            id
+            image
+            name
+            price
+            count
+        }
+    ]
+}
+
+put /user/profiles/:id/edit_data/about/
+{
+    data
+}
+put /user/profiles/:id/edit_data/album/
+{
+    data[]
+}
+put /user/profiles/:id/edit_data/interests/
+{
+            id
+            data:[string]
+}
+put /user/profiles/:id/edit_data/edit_prodile/
+{
+    ...data eg name avatar country birthdate
+}
+post /host_agency/host/checkout/
+response:{
+    success:boolean
+    message:string
+    message_ar:string
+    data:{
+      expected_salary:number
+      credits:number
+      cash:number
+    }
+}
+/host_agency/me
+{
+    diamonds
+    expected_salary
+    balance
+}
+/user/profiles/:id/host_agency/host/:day/
+{
+    day_target
+}
+
+/user/profiles/:id/host_agency/host/
+{
+    day_target
+    month_target
+    credit:number
+    expected_salary:number
+    host_agency:text
+}
+/user/host_agency/search/:param
+{
+    search_list: [
+        {
+            id
+            name
+            avatar
+            frame
+        }]
+}
+/user/profiles/:id/host_agency/agency_data/
+{
+    name
+    id
+    no_hosts
+}
+
+// host agency member
+
+
+/user/profiles/host_agency/days_data/:day/
+{
+    total_income
+    users:[{
+        day_target
+        month_target
+    }]
+}
+
+/user/profiles/:id/host_agency/agency_rank/
+{
+    agency_rank
+    total_hosters_salaries
+    agency_salaries
+}
+
+post /user/profiles/:id/host_agency/invite/
+{
+    user_id
+}
+post /user/profiles/:id/host_agency/accept/
+{
+    user_id
+}
+post /user/profiles/:id/host_agency/deny/
+{
+    user_id
+}
+
+/user/profiles/:id/host_agency/join_requests/
+{
+    users:[
+        {
+            id
+            name
+            avatar
+            frame
+            level
+            charge_level
+            carizma
+            age
+            gender
+            in_room // roomID
+        }
+    ]
+}
+
+/user/profiles/:id/host_agency/pending_invites_requests/
+{
+    users:[
+        {
+            id
+            name
+            avatar
+            frame
+            level
+            charge_level
+            carizma
+            age
+            gender
+            in_room
+        }
+    ]
+}
+
+/user/profiles/:id/host_agency/pending_invites_requests/remove/
+{
+    user_id
+}
+
+put /user/profiles/:id/host_agency/edit_hoster/remove/
+{
+    user_id
+}
+
+// host agency search
+
+// bending join requests
+post /user/profiles/:id/host_agency/join_requests/
+{
+    agency_id
+}
+/user/profiles/:id/host_agency/join_requests/history/
+{
+    agencies:[
+        {
+            id
+            name
+            avatar
+            status
+        }
+    ]
+}
+post /user/profiles/:id/host_agency/join_requests/cancel/
+{
+    agency_id
+}
+
+// levels
+/user/profiles/:id/level/
+{
+    level
+    point// 00 when level up
+    next_level_points
+}
+//home page
+/home/activities/
+{
+    activities[
+        {
+            name
+            image
+            link
+        }
+    ]
+}
+
+/home/top_countries/
+{
+    countries[
+        code
+    ]
+}
+/home/games/
+{
+    games[
+        {
+            name
+            image
+            link
+        }
+    ]
+}
+/home/ranking/top3(rich)/
+{
+    [
+        image
+    ]//sorted from 1 to 3 (30 days)
+}
+/home/ranking/top3(famous)
+{
+    [
+        image
+    ]//sorted from 1 to 3 (30 days)
+}
+
+/home/:id/rooms/:enum(1,2,3):[1:followers,2:new,3:trend]
+{
+    rooms[
+        {
+            name
+            id
+            title
+            image
+            live_members_count
+        }
+    ]
+}
+
+/home/ranking/top3_(rich/famous)/:enum(1,2,3):[1:daily,2:weekly,3:monthly]
+{
+    [
+        {
+            image
+            name
+            id
+            carizma/contribution
+        }
+    ]//sorted from 1 to 3 (30 days)/ 7 days/ 1day
+}
+
+/home/ranking/fame|rich/:enum(1,2,3):[1:daily,2:weekly,3:monthly]
+{
+    [
+        {
+            image
+            name
+            id
+            carizma/contribution
+        }
+    ]//paginated ~14 per page (30 days)/ 7 days/ 1day
+}
+// groups
+/groups/
+{
+    groups:[
+        {
+            id (group)
+            image
+            cover
+            name
+            members_count
+            live_members_count
+        }
+    ]
+    //paginated 15 per page
+}
+/groups/search/:param
+{
+    search_list: [
+        {
+            id(group)
+            name
+            image
+            cover
+            members_count
+            live_members_count
+        }]
+}
+/groups/make_group/date
+{
+    has_group:boolean
+    followers_count:number
+    // credits:number
+}
+post /groups/make_group/
+{
+    image
+    name
+    cover
+    is_private:boolean
+    // user cant have more than 1 group
+    // user must have more than 50 followers
+    //user must pay n credits
+}
+
+/groups/:id/
+{
+    group_data:{
+        // id
+        // image
+        // cover
+        // name
+        // members_count
+        // live_members_count
+        is_private
+        admin:{
+            id
+            name
+            avatar
+            frame
+            level
+            charge_level
+            carizma
+        }
+    }
+    rooms:[
+        {
+            id
+            name
+            title
+            room_announcement
+            image
+            live_members_count
+            room_type
+            room_padge
+            is_private
+        }
+    ]
+}
+/groups/:id/members/
+{
+    members:[
+        {
+            id
+            name
+            avatar
+            frame
+            level
+            charge_level
+            carizma
+            age
+            gender
+        }
+    ]
+}
+
+post /groups/:id/join/
+{
+
+}
+post /groups/:id/leave/
+{
+
+}
+//admin routes
+    post /groups/:id/ban/user_id
+    {
+        user_id
+    }
+    post /groups/:id/block/
+    {
+        user_id
+    }
+    post /groups/:id/unblock/
+    {
+        user_id
+    }
+    post /groups/:id/invite/
+    {
+        user_id
+    }
+    put /groups/edit_group/
+    {
+        image?
+        name?
+        cover?
+        is_private?:boolean
+        // user cant have more than 1 group
+        // user must have more than 50 followers
+        //user must pay n credits
+    }
+    post /groups/:id/accept/
+    {
+        user_id
+    }
+    get /groups/:id/pending_join_list/
+    {
+        users:[
+            {
+                id
+                name
+                avatar
+                frame
+                level
+                charge_level
+                carizma
+                age
+                gender
+                in_room:string // roomID
+            }
+        ]
+    }
+    get /groups/:id/blocked_list/
+    {
+        users:[
+            {
+                id
+                name
+                avatar
+                frame
+                level
+                charge_level
+                carizma
+                age
+                gender
+                in_room:string // roomID
+            }
+        ]
+    }
+
+    // chat section
+    /user/:id/chats/
+    {
+        chats:[
+            {
+                chat_id
+                name
+                avatar
+                last_message
+                last_message_date
+                unread_messages
+            }
+
+        ]
+        unread_system_messages:number
+        unread_gifts_count:number
+        unread_frinds_requests:number
+    }
+    system_messege: {
+        messege_type 1-3
+        data:{
+            text
+            image?
+            link?
+        }
+    }
+
+    /user/:id/chats/system_messages/
+    {
+        messeges:[
+            {
+                messege_type 1-3
+                data:{
+                    text
+                    image?
+                    link?
+                }
+            }
+        ]
+    }
+
+    /user/:id/relations/friends/requests
+    {
+        requests:[
+            {
+                id
+                name
+                avatar
+                frame
+                level
+                charge_level
+                carizma
+                age
+                gender
+                in_room:string // roomID
+            }
+        ]
+    }
+
+
+    // user can follow a user  then he will be his follower and if the other user followed back they are friends and if unfollowed they are not friends and user can block a user
+
+    post /user/:id/relations/friends/block/
+    {
+        user_id
+    }
+
+    post /user/:id/relations/friends/unblock/
+    {
+        user_id
+    }
+
+    post /user/:id/relations/friends/follow/
+    {
+        user_id
+    }
+
+    post /user/:id/relations/friends/unfollow/
+    {
+        user_id
+    }
+    post /user/:id/relations/friends/follow_ignore/
+    {
+        user_id
+    // if user ignored follow request of another user the other user get that that user ignored him with date of ignore
+    }
+
+    /user/:id/relations/friends/new_frinds
+    {
+        friends:[
+            {
+                id
+                name
+                avatar
+                frame
+                level
+                charge_level
+                carizma
+                age
+                gender
+                in_room:string // roomID
+            }
+        ]
+        // last 7 days friends paginated to 14 per page
+    }
+
+    /user/:id/relations/friends/new_ignores
+    {
+        ignores:[
+            {
+                id
+                name
+                avatar
+                frame
+                level
+                charge_level
+                carizma
+                age
+                gender
+                in_room:string // roomID
+                date
+            }
+        ]
+        // last 7 days ignores paginated to 14 per page
+    }
+
+    /user/:id/relations/friends/new_ignored
+    {
+        ignored:[
+            {
+                id
+                name
+                avatar
+                frame
+                level
+                charge_level
+                carizma
+                age
+                gender
+                in_room:string // roomID
+                date
+            }
+        ]
+        // last 7 days ignored paginated to 14 per page
+    }
+
+    /user/:id/relations/friends/gifts_from_possible_friends/
+    {
+        gifts:[
+            {
+                image
+                id
+                name
+                gift{
+                    id
+                    image
+                    name
+                    price
+                    count
+                }
+            }
+        ]
+    }
+
+    // non friends users cannot send anymesseges to each other
+    /user/:id/chats/:id/{
+        security_mode:boolean
+        is_frinend:boolean
+        messages:[
+            {
+                id
+                message_type: 1-6 //1:text,2:image,3:sticker,4:voice,5:gift,app_messege:6
+                sender_id
+                date:{
+                    text?
+                    url?
+                }
+                app_messege?:{
+                    messege_type 1-3 //1:room_inv , 2:agency_inv , 3:group_inv
+                    data:{
+                        text
+                        id
+                        image?
+                    }
+                }
+            }
+        ]//paginated 15 per page
+    }
+
+    post /user/:id/chats/:id/send_message/
+    {
+        is_frinend:boolean // if not friend cost him n credits to send if not enough credits return error
+        message_type: 1-6 //1:text,2:image,3:sticker,4:voice,5:gift,app_messege:6
+        message:{
+            text?
+            file?
+            sticker_id?
+            gift_id?
+        }
+        app_messege?:{
+            messege_type 1-3 //1:room_inv , 2:agency_inv , 3:group_inv
+            data:{
+                text
+                id
+                image?
+            }
+        }
+    }:{
+        success:boolean
+        data:{
+            message_id
+        }
+        error:{
+            status
+            message
+            message_ar
+        }
+    }
+
+
+
+    get /user/:id/chats/:id/albums/
+    {
+        albums:[
+            {
+                id
+                image
+            }
+        ]//paginated 18 per page
+
+    }
+
+    /assets/stickers/
+    {
+        stickers:[
+            {
+                name:string
+                type:enum (1,2,3) //1:free,2:vip,3:pro
+                images:[
+                    {
+                        image
+                        id
+                    }
+                ]
+            }
+        ]
+    }
+
+    /assets/stickers/id
+    {
+        url
+    }
+ post rooms/:id/leave/
+    {
+        user_id
+    }
+
+
+post rooms/create/
+    {
+        body: Joi.object().keys({
+          name: Joi.string().required(),
+          announce: Joi.string().required(),
+          roomCountryCode: Joi.string().required().default('SA'),
+        }),
+        file: Joi.object().keys({
+          image: Joi.string().required(),
+        }),
+    }
+
+post rooms/:id/admin/data/settings/moderators/
+    {
+        moderators:[
+                {
+                    user_id
+                    image
+                    name
+                }
+        ]
+    }
+post /user/rooms/:id/send_broadcast/
+    {
+      // maybe a custome level
+      // for all roams with deducting 1000  credits
+        message
+        room_id
+    }
+    get /posts/rooms_broadcasts
+    {
+        broadcasts:[
+            {
+                message
+                room_id
+                date
+                country
+                image
+            }
+        ]
+    }
+
+     post rooms/:id/admin/data/buy_special_mic/
+    {
+        special_mic_id : 1,2,3
+    }
+    put rooms/:id/admin/data/select_special_mic/
+    {
+        selected_special_mic : 1,2,3
+    }
+
+
+put rooms/:id/admin/data/edit_bg/
+    {
+        new_bg_id
+    }
+    put rooms/:id/admin/data/edit_mic_shape/
+    {
+        new_mic_shape_id
+    }
+    post rooms/:id/admin/data/add_bg/
+    {
+        image
+    }
+
+rooms/:id/admin/data/statistics/
+    {
+        backgrounds[
+            {
+                image
+                is_pro:boolean
+                id
+            }//previous images added by admin of the room should be shown too
+        ]
+        mic_shapes[
+            {
+                image
+                is_pro:boolean
+                id
+            }
+        ]
+        bought_room_types[
+            1,2,3
+        ]
+    }
+    room/set_status/{
+      charizmaMode
+      enterEffectEnabled
+      hostMicEnabled
+      guessGameEnabled
+    }
+        put rooms/:id/admin/data/edit_room_type/
+    {
+        new_room_type
+        //all rooms are paid except the classic one eg id 1
+    }
+/// bought options in room // bg - mic_shapes - room_types
+
+enum RoomMicState{
+  noSpeaker,
+  hasSpeaker,
+  muted,
+  locked,
+}
+final int micNumber;
+  final String? micUserId;
+  final String? micUserName;
+  String micImage;
+  final String? micUserAvatarFrame;
+  final int micUserCharsimaCount;
+  final bool? micUserIsMale;
+  final String? micEmoji;
+  final RoomMicState roomMicState;
+room/members/{
+     // user model we know
+   }
+
+post rooms/join/:id
+    {
+        password?
+    }
+    {
+      roomType
+      "roomCountryCode": "SA",
+      "_id": "673e9aacf5d2b35a85822277",
+      "name": "my room",
+      "subject":"",
+      "image": "",
+      "announce": "",
+      "gameImage": "",
+      "roomBackgroundImage": "",
+      membersCount" "",
+      totalCharizmaCount: "",
+      isModerator: false,
+    }

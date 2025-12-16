@@ -1,0 +1,42 @@
+port: 7880
+bind_addresses:
+    - ""
+rtc:
+    tcp_port: 7881
+    packet_buffer_size_audio: 100  # lower means faster passthrough
+    port_range_start: 50000
+    port_range_end: 60000
+    use_external_ip: true
+    enable_loopback_candidate: false
+redis:
+    address: localhost:6379
+    username: ""
+    password: ""
+    db: 0
+    use_tls: false
+    sentinel_master_name: ""
+    sentinel_username: ""
+    sentinel_password: ""
+    sentinel_addresses: []
+    cluster_addresses: []
+    max_redirects: null
+
+turn:
+    enabled: true
+    domain: turn.sawalive.live
+    tls_port: 5349
+    udp_port: 3478
+    external_tls: true
+ingress:
+    rtmp_base_url: rtmp://realtime.sawalive.live:1935/x
+    whip_base_url: http://realtime.sawalive.live:8080/w
+    
+keys:
+    APIcCDrvYUXN4eC: su7uPIys6OFyFCzXkPiIl9eUqAKhfpyFa5Kk9qtrb91
+# Logging configuration for better debugging
+webhook:
+  # The API key to use in order to sign the message
+  # This must match one of the keys LiveKit is configured with
+  api_key: 'APIcCDrvYUXN4eC'
+  urls:
+    - 'https://app.sawalive.live/v1/room/live-hooks'

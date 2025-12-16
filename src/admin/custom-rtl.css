@@ -1,0 +1,25 @@
+html[dir="rtl"],
+body[dir="rtl"],
+.admin-js {
+    direction: rtl;
+    text-align: right;
+}
+
+html[dir="rtl"] .sidebar {
+    left: auto;
+    right: 0;
+}
+
+html[dir="rtl"] .content {
+    margin-left: 0 !important;
+    margin-right: 250px !important;
+}
+
+html[dir="rtl"] .table th,
+html[dir="rtl"] .table td {
+    text-align: right !important;
+}
+
+body {
+    font-family: 'Arial', 'Tahoma', 'Segoe UI', sans-serif !important;
+}

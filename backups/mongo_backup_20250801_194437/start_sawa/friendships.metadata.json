@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"user1":{"$numberInt":"1"},"user2":{"$numberInt":"1"}},"name":"user1_1_user2_1","background":true,"unique":true}],"uuid":"1cbd6d3c113e45d88b167e29be848c7b","collectionName":"friendships","type":"collection"}

@@ -1,0 +1,74 @@
+
+
+// invitations on chat
+
+    // room search by category and country code
+// before joinage
+    {
+        isPrivate : settings.privacy: Joi.string().required(),
+        roomType
+        "roomCountryCode": "SA",
+        "_id": "673e9aacf5d2b35a85822277",
+        "name": "my room",
+        "subject":"",
+        "Image": "",
+        "announce": "",
+        "gameImage": "",
+        "roomBackgroundImage": "",
+        membersCount" "",
+        totalCharizmaCount: "",
+        "owner": {
+            "frame": {
+                "url": "http://localhost:3000/uploads\\avatars\\1729552855278-game_2.jpg",
+                "expirationDate": "2024-12-27T01:38:00.833Z"
+            },
+            "_id": "66f4b986ca19aa7cf0cb1529",
+            "avatar": "http://localhost:3000/uploads\\avatars\\1730214513501-WhatsApp Image 2024-09-01 at 18.22.34_36df6331.jpg",
+            "countryCode": "EG",
+            "famePoints": 2809000,
+            "richPoints": 2807700,
+            "level": 91,
+            "dateOfBirth": "2003-09-14T00:00:00.000Z",
+            "name": "آ̯͡ل̯͡ص̯͡ف̯͡ت̯͡ﮯ͡",
+            "userId": "95483194",
+            "isMale": true,
+            "currentRoom": null,
+            "chargeLevel": 13
+        },
+        roomMicShape: "",
+        "status": "active",
+        "__v": 12
+    }
+
+   post rooms/:id/invite/
+  {
+    room_id
+    user_id
+    //only admin can invite friends
+  }
+
+
+
+///{
+  badges: {
+    "richPoints": 21002070,
+    "famePoints": 310002600,
+    "registeredDays": 78,
+    "totalChargedAmount": 0
+  }
+  "gifts": {
+        "totalGiftsReceived": 23,
+        "topGifts": [
+            "https://img.svga.vip/uploads/images/20241104/9639e1f9ef43f790238f63b6779837f3.png",
+            "https://img.svga.vip/uploads/images/20241104/9639e1f9ef43f790238f63b6779837f3.png",
+            "https://img.svga.vip/uploads/images/20241104/9639e1f9ef43f790238f63b6779837f3.png",
+            "https://img.svga.vip/uploads/images/20241104/9639e1f9ef43f790238f63b6779837f3.png",
+            "https://img.svga.vip/uploads/images/20241104/9639e1f9ef43f790238f63b6779837f3.png",
+            "https://img.svga.vip/uploads/images/20241104/9639e1f9ef43f790238f63b6779837f3.png",
+            "https://img.svga.vip/uploads/images/20241104/9639e1f9ef43f790238f63b6779837f3.png",
+            "https://img.svga.vip/uploads/images/20241104/9639e1f9ef43f790238f63b6779837f3.png"
+        ]
+    },
+    "isFollowing": false,
+    "isBlocked": false,
+}

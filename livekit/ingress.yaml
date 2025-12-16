@@ -1,0 +1,24 @@
+redis:
+    address: localhost:6379
+    username: ""
+    password: ""
+    db: 0
+    use_tls: false
+    max_redirects: null
+api_key: APIcCDrvYUXN4eC
+api_secret: su7uPIys6OFyFCzXkPiIl9eUqAKhfpyFa5Kk9qtrb91
+ws_url: wss://realtime.sawalive.live
+rtmp_port: 1935
+whip_port: 8080
+http_relay_port: 9090
+logging:
+    json: false
+    level: "info"
+development: false
+# Fast startup/shutdown configuration
+rtc_config:
+    udp_port: 7885
+    use_external_ip: true
+    enable_loopback_candidate: false
+# CPU optimization for fast processing
+
