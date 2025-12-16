@@ -22,7 +22,6 @@ apps:
       main:
         listen: [":80", ":443"]
         routes:
-
           - match:
               - tls:
                   sni:
@@ -34,7 +33,6 @@ apps:
               - handler: proxy
                 upstreams:
                   - dial: ["localhost:5349"]
-                
           - match:
               - tls:
                   sni:
@@ -46,7 +44,6 @@ apps:
               - handler: proxy
                 upstreams:
                   - dial: ["localhost:7880"]
-
           - match:
               - tls:
                   sni:
