@@ -79,15 +79,6 @@
 #                   - dial: ["localhost:3001"]
 
 
-logging:
-  logs:
-    default:
-      level: INFO
-
-storage:
-  module: file_system
-  root: /data
-
 apps:
   tls:
     certificates:
@@ -103,38 +94,9 @@ apps:
           - ":80"
           - ":443"
         routes:
-          # App backend (HTTP reverse proxy)
           - match:
               - host: ["app.rootmatrix.cloud"]
             handle:
               - handler: reverse_proxy
                 upstreams:
                   - dial: "127.0.0.1:6000"
-
-  layer4:
-    servers:
-      # LiveKit Realtime (TCP Layer4 proxy)
-      realtime:
-        listen:
-          - ":7880"           # Realtime TCP port
-        routes:
-          - match:
-              - tls:
-                  sni: ["realtime.rootmatrix.cloud"]
-            handle:
-              - handler: proxy
-                upstreams:
-                  - dial: ["127.0.0.1:7880"]
-      # TURN server (TLS + UDP passthrough)
-      turn:
-        listen:
-          - ":5349"           # TLS port
-          - ":3478/udp"       # UDP port for TURN
-        routes:
-          - match:
-              - tls:
-                  sni: ["turn.rootmatrix.cloud"]
-            handle:
-              - handler: proxy
-                upstreams:
-                  - dial: ["127.0.0.1:5349"]
