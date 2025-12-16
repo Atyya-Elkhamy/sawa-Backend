@@ -1,7 +1,7 @@
 
 const branding = {
   companyName: 'SAWA LIVE',
-  favicon: 'https://app.sawalive.live/public/logo.png',
+  favicon: 'https://app.rootmatrix.cloud	/public/logo.png',
   withMadeWithLove: false,
 
   direction: 'rtl',

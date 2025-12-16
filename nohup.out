@@ -29,7 +29,7 @@ Input #0, mp3, from '/media/atia/36F2DCDAF2DCA003/aduio.mp3':
 Stream mapping:
   Stream #0:0 -> #0:0 (mp3 (mp3float) -> aac (native))
 Press [q] to stop, [?] for help
-Output #0, flv, to 'rtmp://realtime.sawalive.live:1935/x/78h55sLMAKda':
+Output #0, flv, to 'rtmp://realtime.rootmatrix.cloud	:1935/x/78h55sLMAKda':
   Metadata:
     major_brand     : dash
     minor_version   : 0
@@ -41,70 +41,93 @@ Output #0, flv, to 'rtmp://realtime.sawalive.live:1935/x/78h55sLMAKda':
   Stream #0:0: Audio: aac (LC) ([10][0][0][0] / 0x000A), 44100 Hz, stereo, fltp, 128 kb/s
     Metadata:
       encoder         : Lavc60.31.102 aac
-size=       0kB time=N/A bitrate=N/A speed=N/A    [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
+size=       0kB time=N/A bitrate=N/A speed=N/A    
+[mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
 [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -4 -4
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
-size=      18kB time=00:00:00.97 bitrate= 147.3kbits/s speed=1.91x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
+size=      18kB time=00:00:00.97 bitrate= 147.3kbits/s speed=1.91x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
 [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
-size=      26kB time=00:00:01.50 bitrate= 143.8kbits/s speed=1.46x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
-[mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
-size=      35kB time=00:00:02.02 bitrate= 142.3kbits/s speed= 1.3x    [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
-    Last message repeated 1 times
-[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
-size=      44kB time=00:00:02.55 bitrate= 139.9kbits/s speed=1.23x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
-[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
-[mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -1 -1
-[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
-size=      52kB time=00:00:03.06 bitrate= 139.0kbits/s speed=1.18x    size=      61kB time=00:00:03.59 bitrate= 139.1kbits/s speed=1.15x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
+size=      26kB time=00:00:01.50 bitrate= 143.8kbits/s speed=1.46x    
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
 [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
-[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
-size=      69kB time=00:00:04.10 bitrate= 138.4kbits/s speed=1.13x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
-    Last message repeated 1 times
+size=      35kB time=00:00:02.02 bitrate= 142.3kbits/s speed= 1.3x    
 [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
     Last message repeated 1 times
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
-size=      78kB time=00:00:04.64 bitrate= 138.2kbits/s speed=1.11x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
+size=      44kB time=00:00:02.55 bitrate= 139.9kbits/s speed=1.23x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
+[mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -1 -1
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
+size=      52kB time=00:00:03.06 bitrate= 139.0kbits/s speed=1.18x    
+size=      61kB time=00:00:03.59 bitrate= 139.1kbits/s speed=1.15x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
+[mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
+size=      69kB time=00:00:04.10 bitrate= 138.4kbits/s speed=1.13x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
+    Last message repeated 1 times
+[mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
+    Last message repeated 1 times
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
+size=      78kB time=00:00:04.64 bitrate= 138.2kbits/s speed=1.11x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
 [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -1 -1
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
 [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -1 -1
-size=      87kB time=00:00:05.15 bitrate= 137.8kbits/s speed= 1.1x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
+size=      87kB time=00:00:05.15 bitrate= 137.8kbits/s speed= 1.1x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
     Last message repeated 1 times
 [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -4 -4
-size=      95kB time=00:00:05.68 bitrate= 137.2kbits/s speed=1.09x    [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
+size=      95kB time=00:00:05.68 bitrate= 137.2kbits/s speed=1.09x    
+[mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
 [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -4 -4
-size=     104kB time=00:00:06.19 bitrate= 136.9kbits/s speed=1.08x    [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -4 -4
+size=     104kB time=00:00:06.19 bitrate= 136.9kbits/s speed=1.08x    
+[mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -4 -4
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
 [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -4 -4
-size=     112kB time=00:00:06.73 bitrate= 136.7kbits/s speed=1.08x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
+size=     112kB time=00:00:06.73 bitrate= 136.7kbits/s speed=1.08x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
 [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -1 -1
-size=     121kB time=00:00:07.24 bitrate= 136.9kbits/s speed=1.07x    size=     130kB time=00:00:07.77 bitrate= 136.7kbits/s speed=1.07x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
+size=     121kB time=00:00:07.24 bitrate= 136.9kbits/s speed=1.07x    
+size=     130kB time=00:00:07.77 bitrate= 136.7kbits/s speed=1.07x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
 [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -1 -1
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
-size=     138kB time=00:00:08.28 bitrate= 136.7kbits/s speed=1.06x    [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
+size=     138kB time=00:00:08.28 bitrate= 136.7kbits/s speed=1.06x    
+[mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
-size=     147kB time=00:00:08.82 bitrate= 136.4kbits/s speed=1.06x    [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
+size=     147kB time=00:00:08.82 bitrate= 136.4kbits/s speed=1.06x    
+[mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
 [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -4 -4
 [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
-size=     155kB time=00:00:09.33 bitrate= 136.2kbits/s speed=1.05x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
-size=     164kB time=00:00:09.86 bitrate= 136.1kbits/s speed=1.05x    [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -4 -4
+size=     155kB time=00:00:09.33 bitrate= 136.2kbits/s speed=1.05x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
+size=     164kB time=00:00:09.86 bitrate= 136.1kbits/s speed=1.05x    
+[mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -4 -4
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
-size=     172kB time=00:00:10.37 bitrate= 136.0kbits/s speed=1.05x    size=     181kB time=00:00:10.91 bitrate= 135.9kbits/s speed=1.05x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
+size=     172kB time=00:00:10.37 bitrate= 136.0kbits/s speed=1.05x    
+size=     181kB time=00:00:10.91 bitrate= 135.9kbits/s speed=1.05x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
 [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -1 -1
-size=     190kB time=00:00:11.42 bitrate= 136.0kbits/s speed=1.04x    [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
+size=     190kB time=00:00:11.42 bitrate= 136.0kbits/s speed=1.04x    
+[mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
 [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
-size=     199kB time=00:00:11.95 bitrate= 136.1kbits/s speed=1.04x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
+size=     199kB time=00:00:11.95 bitrate= 136.1kbits/s speed=1.04x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
 [mp3float @ 0x5baf331dc780] overread, skip -7 enddists: -6 -6
 [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
 [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -4 -4
@@ -112,14 +135,17 @@ size=     199kB time=00:00:11.95 bitrate= 136.1kbits/s speed=1.04x    [mp3float
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
 [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -4 -4
-size=     207kB time=00:00:12.46 bitrate= 135.8kbits/s speed=1.04x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
+size=     207kB time=00:00:12.46 bitrate= 135.8kbits/s speed=1.04x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
 [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -4 -4
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
     Last message repeated 1 times
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
-size=     216kB time=00:00:13.00 bitrate= 135.8kbits/s speed=1.04x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
-size=     224kB time=00:00:13.51 bitrate= 135.7kbits/s speed=1.04x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
+size=     216kB time=00:00:13.00 bitrate= 135.8kbits/s speed=1.04x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
+size=     224kB time=00:00:13.51 bitrate= 135.7kbits/s speed=1.04x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
 [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
@@ -129,7 +155,8 @@ size=     224kB time=00:00:13.51 bitrate= 135.7kbits/s speed=1.04x    [mp3float
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
 [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
-size=     232kB time=00:00:14.00 bitrate= 135.9kbits/s speed=1.03x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
+size=     232kB time=00:00:14.00 bitrate= 135.9kbits/s speed=1.03x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
     Last message repeated 1 times
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
     Last message repeated 1 times
@@ -139,7 +166,8 @@ size=     232kB time=00:00:14.00 bitrate= 135.9kbits/s speed=1.03x    [mp3float
 [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -1 -1
     Last message repeated 1 times
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
-size=     241kB time=00:00:14.53 bitrate= 135.6kbits/s speed=1.03x    [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -1 -1
+size=     241kB time=00:00:14.53 bitrate= 135.6kbits/s speed=1.03x    
+[mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -1 -1
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
 [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -1 -1
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
@@ -149,34 +177,42 @@ size=     241kB time=00:00:14.53 bitrate= 135.6kbits/s speed=1.03x    [mp3float
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
 [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -1 -1
-size=     249kB time=00:00:15.04 bitrate= 135.7kbits/s speed=1.03x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
+size=     249kB time=00:00:15.04 bitrate= 135.7kbits/s speed=1.03x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
     Last message repeated 1 times
 [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -2 -2
 [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -1 -1
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
-size=     258kB time=00:00:15.58 bitrate= 135.7kbits/s speed=1.03x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
+size=     258kB time=00:00:15.58 bitrate= 135.7kbits/s speed=1.03x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
 [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -3 -3
 [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
 [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -3 -3
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
 [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -1 -1
     Last message repeated 2 times
-size=     266kB time=00:00:16.09 bitrate= 135.7kbits/s speed=1.03x    [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -2 -2
+size=     266kB time=00:00:16.09 bitrate= 135.7kbits/s speed=1.03x    
+[mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -2 -2
 [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -1 -1
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
     Last message repeated 1 times
 [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -1 -1
-size=     275kB time=00:00:16.62 bitrate= 135.6kbits/s speed=1.03x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
-size=     284kB time=00:00:17.13 bitrate= 135.6kbits/s speed=1.03x    [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -1 -1
+size=     275kB time=00:00:16.62 bitrate= 135.6kbits/s speed=1.03x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
+size=     284kB time=00:00:17.13 bitrate= 135.6kbits/s speed=1.03x    
+[mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -1 -1
     Last message repeated 1 times
 [mp3float @ 0x5baf331dc780] overread, skip -4 enddists: -2 -2
-size=     292kB time=00:00:17.67 bitrate= 135.6kbits/s speed=1.03x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
+size=     292kB time=00:00:17.67 bitrate= 135.6kbits/s speed=1.03x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
-size=     301kB time=00:00:18.18 bitrate= 135.5kbits/s speed=1.03x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
+size=     301kB time=00:00:18.18 bitrate= 135.5kbits/s speed=1.03x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -4 -4
     Last message repeated 1 times
 [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -3 -3
-size=     310kB time=00:00:18.71 bitrate= 135.5kbits/s speed=1.03x    [mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
+size=     310kB time=00:00:18.71 bitrate= 135.5kbits/s speed=1.03x    
+[mp3float @ 0x5baf331dc780] overread, skip -5 enddists: -2 -2
 [mp3float @ 0x5baf331dc780] overread, skip -6 enddists: -5 -5
 [flv @ 0x5baf331ddc00] Failed to update header with correct duration.
 [flv @ 0x5baf331ddc00] Failed to update header with correct filesize.

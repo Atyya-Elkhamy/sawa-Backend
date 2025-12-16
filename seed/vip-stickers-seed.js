@@ -17,8 +17,8 @@ for (let vipLevel = 2; vipLevel <= 7; vipLevel++) {
     VIP_STICKERS.push({
       name: `vip${vipLevel}-sticker-${i}`,
       category: `vip${vipLevel}`,
-      image: `https://app.sawalive.live/public/assets/vip-stickers/vip${vipLevel}/${i}.png`,
-      file: `https://app.sawalive.live/public/assets/vip-stickers/vip${vipLevel}/${i}.svga`,
+      image: `https://app.rootmatrix.cloud	/public/assets/vip-stickers/vip${vipLevel}/${i}.png`,
+      file: `https://app.rootmatrix.cloud	/public/assets/vip-stickers/vip${vipLevel}/${i}.svga`,
       type: 'vip',
       vipLevel,
     });

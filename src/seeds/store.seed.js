@@ -9,7 +9,7 @@ const seedItems = async () => {
   await mongoose.connect(MONGODB_URL);
 
   // Define base URLs
-  const baseUrl = 'https://app.sawalive.live/';
+  const baseUrl = 'https://app.rootmatrix.cloud	/';
   const fullUrl = `${baseUrl}public/items`;
 
   // Define item types

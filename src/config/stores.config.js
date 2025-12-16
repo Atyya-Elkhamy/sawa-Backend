@@ -96,10 +96,10 @@ const calculatePriceAndDuration = (basePrice, durationOption) => {
 
 // vip app entry effect
 const vipMicEffects = {
-  4: 'https://app.sawalive.live/public/assets/MicSpeakingEffect/micro_wave_vip4.svga',
-  5: 'https://app.sawalive.live/public/assets/MicSpeakingEffect/micro_wave_vip5.svga',
-  6: 'https://app.sawalive.live/public/assets/MicSpeakingEffect/micro_wave_vip6.svga',
-  7: 'https://app.sawalive.live/public/assets/MicSpeakingEffect/micro_wave_vip7.svga',
+  4: 'https://app.rootmatrix.cloud	/public/assets/MicSpeakingEffect/micro_wave_vip4.svga',
+  5: 'https://app.rootmatrix.cloud	/public/assets/MicSpeakingEffect/micro_wave_vip5.svga',
+  6: 'https://app.rootmatrix.cloud	/public/assets/MicSpeakingEffect/micro_wave_vip6.svga',
+  7: 'https://app.rootmatrix.cloud	/public/assets/MicSpeakingEffect/micro_wave_vip7.svga',
 };
 
 const getVipMicEffect = (level) => {

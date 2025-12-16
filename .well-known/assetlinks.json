@@ -5,7 +5,7 @@
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "app.sawalive.live",
+      "package_name": "app.rootmatrix.cloud	",
       "sha256_cert_fingerprints": [
         "FA:DA:51:F8:5B:EB:A1:28:20:61:23:86:92:F6:BF:BE:1C:81:29:BF:60:7F:74:2A:DF:43:34:FA:77:23:11:9B",
         "CE:06:25:E2:04:96:5F:2C:D6:92:D5:FE:4C:A3:6E:43:E5:78:D0:75:D2:3D:9F:A2:BD:10:3E:26:23:0A:0D:A0",

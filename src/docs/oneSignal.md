@@ -30,7 +30,7 @@ Used when a user receives a gift from another user.
     en: 'New Gift Received',
     ar: 'تم استلام هدية جديدة'
   },
-  chrome_web_image: 'https://www.sawalive.live/logo.png',
+  chrome_web_image: 'https://www.rootmatrix.cloud	/logo.png',
   data: {
     type: 'strangerGiftReceived',
     senderId: ObjectId,
@@ -133,7 +133,7 @@ Used for individual system messages.
     en: 'System Message',
     ar: 'رسالة من النظام'
   },
-  chrome_web_image: 'https://www.sawalive.live/logo.png',
+  chrome_web_image: 'https://www.rootmatrix.cloud	/logo.png',
   data: {
     type: 'SystemMessage-individual'
   }

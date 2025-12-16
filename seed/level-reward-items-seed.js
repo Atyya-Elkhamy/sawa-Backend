@@ -14,8 +14,8 @@ const LEVEL_REWARD_ITEMS = [
     type: 'frame',
     price: 0, // Free item given as reward
     description: 'Special frame for reaching level 21-50',
-    image: 'https://app.sawalive.live/public/assets/levelFrames/level-frame-1.png',
-    file: 'https://app.sawalive.live/public/assets/levelFrames/level-frame-1.svga',
+    image: 'https://app.rootmatrix.cloud	/public/assets/levelFrames/level-frame-1.png',
+    file: 'https://app.rootmatrix.cloud	/public/assets/levelFrames/level-frame-1.svga',
     isHidden: true,
   },
   {
@@ -23,8 +23,8 @@ const LEVEL_REWARD_ITEMS = [
     type: 'frame',
     price: 0,
     description: 'Special frame for reaching level 51-80',
-    image: 'https://app.sawalive.live/public/assets/levelFrames/level-frame-2.png',
-    file: 'https://app.sawalive.live/public/assets/levelFrames/level-frame-2.svga',
+    image: 'https://app.rootmatrix.cloud	/public/assets/levelFrames/level-frame-2.png',
+    file: 'https://app.rootmatrix.cloud	/public/assets/levelFrames/level-frame-2.svga',
     isHidden: true,
   },
   {
@@ -32,8 +32,8 @@ const LEVEL_REWARD_ITEMS = [
     type: 'frame',
     price: 0,
     description: 'Special frame for reaching level 81-110',
-    image: 'https://app.sawalive.live/public/assets/levelFrames/level-frame-3.png',
-    file: 'https://app.sawalive.live/public/assets/levelFrames/level-frame-3.svga',
+    image: 'https://app.rootmatrix.cloud	/public/assets/levelFrames/level-frame-3.png',
+    file: 'https://app.rootmatrix.cloud	/public/assets/levelFrames/level-frame-3.svga',
     isHidden: true,
   },
   {
@@ -41,8 +41,8 @@ const LEVEL_REWARD_ITEMS = [
     type: 'frame',
     price: 0,
     description: 'Special frame for reaching level 111-150',
-    image: 'https://app.sawalive.live/public/assets/levelFrames/level-frame-4.png',
-    file: 'https://app.sawalive.live/public/assets/levelFrames/level-frame-4.svga',
+    image: 'https://app.rootmatrix.cloud	/public/assets/levelFrames/level-frame-4.png',
+    file: 'https://app.rootmatrix.cloud	/public/assets/levelFrames/level-frame-4.svga',
     isHidden: true,
   },
   {
@@ -50,8 +50,8 @@ const LEVEL_REWARD_ITEMS = [
     type: 'frame',
     price: 0,
     description: 'Special frame for reaching level 151-200',
-    image: 'https://app.sawalive.live/public/assets/levelFrames/level-frame-5.png',
-    file: 'https://app.sawalive.live/public/assets/levelFrames/level-frame-5.svga',
+    image: 'https://app.rootmatrix.cloud	/public/assets/levelFrames/level-frame-5.png',
+    file: 'https://app.rootmatrix.cloud	/public/assets/levelFrames/level-frame-5.svga',
     isHidden: true,
   },
 ];

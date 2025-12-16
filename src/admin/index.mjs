@@ -115,7 +115,7 @@ const setupAdminPanel = () => {
       vipSubscriptionResource,
       adminSettingsResource,
     ],
-    logo: 'https://app.sawalive.live/public/logo.png',
+    logo: 'https://app.rootmatrix.cloud	/public/logo.png',
     pages: {
       AdminMessage: {
         name: 'رسائل الإدارة',

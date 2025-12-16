@@ -31,9 +31,9 @@ This package contains all the necessary configuration files and scripts to deplo
 - Docker and Docker Compose installed
 - Ports 443, 5349, 7880, 7881, 6379, 1935, 8080, 50000-60000 open
 - Domain names configured for:
-  - `realtime.sawalive.live` (LiveKit server)
-  - `turn.sawalive.live` (TURN server)
-  - `app.sawalive.live` (Application)
+  - `realtime.rootmatrix.cloud	` (LiveKit server)
+  - `turn.rootmatrix.cloud	` (TURN server)
+  - `app.rootmatrix.cloud	` (Application)
 
 ### Installation Steps
 
@@ -56,7 +56,7 @@ This package contains all the necessary configuration files and scripts to deplo
    
    **Before deployment, update these files with your domain names:**
    
-   - In `caddy.yaml`: Replace `sawalive.live` domains with your domains
+   - In `caddy.yaml`: Replace `rootmatrix.cloud	` domains with your domains
    - In `livekit.yaml`: Update TURN domain and ingress URLs
    - In `ingress.yaml`: Update `ws_url` with your domain
 
@@ -73,20 +73,20 @@ This package contains all the necessary configuration files and scripts to deplo
 ## 🔧 Configuration Customization
 
 ### Domains to Update
-Replace `sawalive.live` with your domain in these files:
+Replace `rootmatrix.cloud	` with your domain in these files:
 
 **caddy.yaml:**
-- `realtime.sawalive.live` → `realtime.yourdomain.com`
-- `turn.sawalive.live` → `turn.yourdomain.com`
-- `app.sawalive.live` → `app.yourdomain.com`
+- `realtime.rootmatrix.cloud	` → `realtime.yourdomain.com`
+- `turn.rootmatrix.cloud	` → `turn.yourdomain.com`
+- `app.rootmatrix.cloud	` → `app.yourdomain.com`
 
 **livekit.yaml:**
-- `turn.sawalive.live` → `turn.yourdomain.com`
-- `realtime.sawalive.live` → `realtime.yourdomain.com`
+- `turn.rootmatrix.cloud	` → `turn.yourdomain.com`
+- `realtime.rootmatrix.cloud	` → `realtime.yourdomain.com`
 - Webhook URL: Update to your application's webhook endpoint
 
 **ingress.yaml:**
-- `wss://realtime.sawalive.live` → `wss://realtime.yourdomain.com`
+- `wss://realtime.rootmatrix.cloud	` → `wss://realtime.yourdomain.com`
 
 ### Security Configuration
 - **API Keys**: Generate new API keys for production

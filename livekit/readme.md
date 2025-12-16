@@ -21,5 +21,5 @@ chmod +x *.sh
 ```
 
 Notes
-- Update domains in caddy.yaml, livekit.yaml, and ingress.yaml if you are not using sawalive.live.
+- Update domains in caddy.yaml, livekit.yaml, and ingress.yaml if you are not using rootmatrix.cloud	.
 - Requires Docker Engine and Compose v2 (docker compose). Scripts fallback to docker-compose if needed.

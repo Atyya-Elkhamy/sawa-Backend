@@ -23,13 +23,13 @@ redis:
 
 turn:
     enabled: true
-    domain: turn.sawalive.live
+    domain: turn.rootmatrix.cloud	
     tls_port: 5349
     udp_port: 3478
     external_tls: true
 ingress:
-    rtmp_base_url: rtmp://realtime.sawalive.live:1935/x
-    whip_base_url: http://realtime.sawalive.live:8080/w
+    rtmp_base_url: rtmp://realtime.rootmatrix.cloud	:1935/x
+    whip_base_url: http://realtime.rootmatrix.cloud	:8080/w
     
 keys:
     APIcCDrvYUXN4eC: su7uPIys6OFyFCzXkPiIl9eUqAKhfpyFa5Kk9qtrb91
@@ -39,4 +39,4 @@ webhook:
   # This must match one of the keys LiveKit is configured with
   api_key: 'APIcCDrvYUXN4eC'
   urls:
-    - 'https://app.sawalive.live/v1/room/live-hooks'
+    - 'https://app.rootmatrix.cloud	/v1/room/live-hooks'

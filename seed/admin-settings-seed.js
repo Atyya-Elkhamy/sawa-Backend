@@ -12,7 +12,7 @@ const seedAdminSettings = async () => {
     const adminData = {
         username: process.env.ADMIN_USERNAME || 'admin',
         password: process.env.ADMIN_PASSWORD || 'admin123',
-        email: process.env.ADMIN_EMAIL || 'admin@sawalive.live',
+        email: process.env.ADMIN_EMAIL || 'admin@rootmatrix.cloud	',
     };
 
     try {

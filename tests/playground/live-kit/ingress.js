@@ -5,7 +5,7 @@ const path = require('path');
 const ingressConfig = {
   message: 'Ingress created successfully',
   streamKey: 'W6qKoW4cGn9R',
-  url: 'rtmp://realtime.sawalive.live:1935/x',
+  url: 'rtmp://realtime.rootmatrix.cloud	:1935/x',
 };
 
 // Helper function to convert seconds to HH:MM:SS format

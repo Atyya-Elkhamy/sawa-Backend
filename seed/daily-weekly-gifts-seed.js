@@ -25,8 +25,8 @@ const DAILY_WEEKLY_GIFTS = [
   //   name: DEFAULT_DAILY_GIFT_NAME,
   //   price: 0, // Free gift
   //   description: 'Daily reward gift for users',
-  //   image: 'https://app.sawalive.live/public/assets/daily-gift.png',
-  //   file: 'https://app.sawalive.live/public/assets/daily-gift.svga',
+  //   image: 'https://app.rootmatrix.cloud	/public/assets/daily-gift.png',
+  //   file: 'https://app.rootmatrix.cloud	/public/assets/daily-gift.svga',
   //   type: 'free',
   //   gameMultiplier: 1,
   //   hidden: true,
@@ -35,8 +35,8 @@ const DAILY_WEEKLY_GIFTS = [
     name: DEFAULT_WEEKLY_GIFT_NAME,
     price: 0, // Free gift
     description: 'Weekly reward gift for users',
-    image: 'https://app.sawalive.live/public/assets/weekly-gift.png',
-    file: 'https://app.sawalive.live/public/assets/weekly-gift.svga',
+    image: 'https://app.rootmatrix.cloud	/public/assets/weekly-gift.png',
+    file: 'https://app.rootmatrix.cloud	/public/assets/weekly-gift.svga',
     type: 'free',
     gameMultiplier: 1,
     hidden: true,

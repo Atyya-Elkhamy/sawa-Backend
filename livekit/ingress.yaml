@@ -7,7 +7,7 @@ redis:
     max_redirects: null
 api_key: APIcCDrvYUXN4eC
 api_secret: su7uPIys6OFyFCzXkPiIl9eUqAKhfpyFa5Kk9qtrb91
-ws_url: wss://realtime.sawalive.live
+ws_url: wss://realtime.rootmatrix.cloud	
 rtmp_port: 1935
 whip_port: 8080
 http_relay_port: 9090
