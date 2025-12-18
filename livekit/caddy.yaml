@@ -25,9 +25,6 @@ apps:
                   sni:
                     - "turn.rootmatrix.cloud	"
             handle:
-              - handler: tls
-                connection_policies:
-                  - alpn: ["http/1.1"]
               - handler: proxy
                 upstreams:
                   - dial: ["localhost:5349"]
